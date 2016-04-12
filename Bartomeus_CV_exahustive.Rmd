@@ -1,0 +1,102 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data, echo=FALSE}
+library(pander)
+d <- read.csv("data/cv.csv")
+
+```
+
+Ignasi Bartomeus
+================
+
+E-mail: nacho.bartomeus@gmail.com  
+Date of birth: 09-April-1981  
+Nationality: Spanish  
+Webpage: [http://www.bartomeuslab.com](http://www.bartomeuslab.com)  
+Google Scholar: [http://tinyurl.com/bartomeus](http://tinyurl.com/bartomeus)  
+R code in Github: [https://github.com/ibartomeus](https://github.com/ibartomeus)  
+Altmetrics: [https://impactstory.org/IgnasiBartomeus](https://impactstory.org/IgnasiBartomeus)  
+Twitter: [`@`ibartomeus](https://twitter.com/ibartomeus)  
+
+#need to get metrics from Gscholar (h, citatitions, etc...)
+
+Short bio:
+----------
+
+I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I like to focus on pollinators and its function: the pollination of 80% of the worldwide plant species. Pollinators are of vital importance for the ecosystem and are highly sensitive to pressures like climate change or habitat destruction. I obtained my PhD (Suma Cum Laude) in 2008 at the “Universidad Autonoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (Oecologia 2008, 155:761-770; 140 citations`*`). In 2009 I did a short PostDoc with Dr. Daniel Sol (CREAF-CSIC) exploring further the role of life history traits on explaining biological invasions (Science 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree lab (Rutgers University) with a postdoctoral Fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (PNAS 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (PNAS 2011, 108: 20645–20649). On 2012 I was offered a Postdoctoral Position in Swedish University of Agricultural Sciences by Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (Science 2013 339(6127):1608-1611, Nature Comm. 2015 6:7414, PNAS 2015, In press). Since 2014 I am a Ramón y Cajal researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I published 32 scientific papers cited more than 1400 times (H-index = 16). I am on the board of the Spanish Association of Terrestrial Ecology (AEET) and in the editorial board of Journal of Ecology. I am an R user and I believe in the open sharing of data, code and ideas to stimulate science advances. Likewise, I find important to be involved in science outreach in order to transfer my results to a wider audience and I contributed to outreach texts in different magazines and gave public talks in schools and public parks.   
+`*`All citation sources: Google-Scholar November 2015
+
+Education
+---------
+
+* PhD in Ecology (Suma Cum Laude), “Integration and impacts of invasive plants on plant-pollination networks”. UAB (Autonomous University of Barcelona). Advisor: M. Vilà. May 2008.
+
+* MSc in Ecology: “The Outcome of Carpobrotus and Opuntia invasions on plant-pollinator Mediterranean networks”. UAB. Advisor: M. Vilà. April 2006.
+
+* BS in Biology, specialization in Vegetal Biology and Ecology. UAB. June 2004.
+
+Scientific experience
+----------------------
+
+```{r exp, echo = FALSE, results = "asis"}
+exp <- subset(d, category == "experience", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(exp) <- NULL
+pander::pandoc.table(exp, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+
+
+
+Language skills:
+----------------
+
+* First Languages: Catalan and Spanish.  
+* English: Proficient reading, speaking, and writting.  
+* French: Good reading and speaking and basic level of writing.  
+ 
+Informatic and Programing skills:
+---------------------------------
+
+* Advanced level informatics (Macintosh & Windows). Proficiency on a wide array of office automation software.  
+
+* Advanced use of R programming language and statistical packages. Git user (https://github.com/ibartomeus). Contributed to R package taxize (http://cran.r-project.org/web/packages/taxize/). Founder and organizer of the R users meetings of Seville.  
+
+* Experience on modelling (i.e. MaxEnt) and writting simple simulations in R.   
+
+* Knowledge on html language and data base management (MySQL & PHP).  
+
+* Familiarity with GIS (GRASS, Q-GIS).  
+
+Other achievements:
+-------------------
+
+* Board member of the Spanish Asociation of Terrestrial Ecology (AEET)
+
+* Asociate Editor of Journal of Ecology
+
+* Asociate Faculty Member of F1000: http://f1000.com/thefaculty/member/1660572845254917
+
+* Partcipation in Outreach talks and projects: Barcelona ans Sevilla Science week, Horticultural Society of NY, TV3 “el mediambient” TV science show... 
+
+* Evaluator for ANEP (2014 & 2015), Nederlands Research Council (2011) and panel member of the Noweigian Research Council (2015).
+
+* Experience on bee identification.
+
+* Reviwer for the following journals: Nature, Science, PNAS, Current Biology,  Ecology Letters, Ecology, Procidings of the Royal Society B, Journal of Ecology, Functional Ecology, Jurnal of Animal Ecology, Oecologia, Journal of Aplied Biology, Journal of Vegetation Sciences, Northwestern Naturalist, Oikos, Biological Conservation, Biological Invasions, American Journal of Botany, Annals of Botany, Behavior Ecology, Plant Science, Ecological Enthomology, Current Zoology, International Journal of Plant Sciences, and Basic and Applied Biology, PeerJ, Diversity and Distributions, ...
+
+* Volunteer at iwith.org
+
+* President of the excursionist group “CampBase” (2002-2005) and regular practice of alpinism.
+
+* Driving Car Licence
+
+> Ignasi Bartomeus  
+> Sevilla, `r Sys.Date()`
+
