@@ -1,5 +1,7 @@
 ---
-output: html_document
+output: 
+  html_document:
+    theme: paper
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r data, echo=FALSE}
 library(pander)
 d <- read.csv("data/cv.csv")
-
+library(scholar)
+#get_num_distinct_journals("EXdyoWAAAAAJ")
+#get_num_top_journals("EXdyoWAAAAAJ")
+ib <- get_profile("EXdyoWAAAAAJ")
+pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FALSE)
+#str(pubs)
+#I may want to retrive ORCIR with rorcid if I update my profile there.
 ```
 
 Ignasi Bartomeus
@@ -24,22 +32,60 @@ R code in Github: [https://github.com/ibartomeus](https://github.com/ibartomeus)
 Altmetrics: [https://impactstory.org/IgnasiBartomeus](https://impactstory.org/IgnasiBartomeus)  
 Twitter: [`@`ibartomeus](https://twitter.com/ibartomeus)  
 
-```{r schoolar, echo = FALSE}
-#need to get metrics from Gscholar (h, citatitions, etc...)
-library(scholar)
-#get_citation_history("EXdyoWAAAAAJ")
-#get_num_distinct_journals("EXdyoWAAAAAJ")
-#get_num_top_journals("EXdyoWAAAAAJ")
-ib <- get_profile("EXdyoWAAAAAJ")
-#pub <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FALSE)
-#str(pub)
+```{r}
+fig <- get_citation_history("EXdyoWAAAAAJ")
+barplot(height = fig$cites, names.arg = fig$year, las = 1, main = "citations per year")
+
 ```
+
 
 Short bio:
 ----------
 
-I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I like to focus on pollinators and its function: the pollination of 80% of the worldwide plant species. Pollinators are of vital importance for the ecosystem and are highly sensitive to pressures like climate change or habitat destruction. I obtained my PhD (_Suma Cum Laude_) in 2008 at the “Universidad Autonoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (_Oecologia_ 2008, 155:761-770; `r sum(get_article_cite_history("EXdyoWAAAAAJ", "u5HHmVD_uO8C")$cites)` citations`*`). In 2009 I did a short PostDoc with Dr. Daniel Sol (CREAF-CSIC) exploring further the role of life history traits on explaining biological invasions (_Science_ 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree lab (Rutgers University) with a postdoctoral Fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (_PNAS_ 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (_PNAS_ 2011, 108: 20645–20649). On 2012 I was offered a Postdoctoral Position in Swedish University of Agricultural Sciences by Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (_Science_ 2013 339(6127):1608-1611, _Nature Comm._ 2015 6:7414, _PNAS_ 2016, In press). Since 2014 I am a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I published `r get_num_articles("EXdyoWAAAAAJ")` scientific papers cited more than `r ib$total_cites` times (H-index = `r ib$h_index`). I am on the board of the Spanish Association of Terrestrial Ecology (AEET) and in the editorial board of Journal of Ecology. I am an R user and I believe in the open sharing of data, code and ideas to stimulate science advances. Likewise, I find important to be involved in science outreach in order to transfer my results to a wider audience and I contributed to outreach texts in different magazines and gave public talks in schools and public parks.   
+I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I like to focus on pollinators and its function: the pollination of 80% of the worldwide plant species. I obtained my PhD (_Suma Cum Laude_) in 2008 at the “Universidad Autonoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (_Oecologia_ 2008, 155:761-770; `r sum(get_article_cite_history("EXdyoWAAAAAJ", "u5HHmVD_uO8C")$cites)` citations`*`). In 2009 I did a short PostDoc with Dr. Daniel Sol (CREAF-CSIC) exploring further the role of life history traits on explaining biological invasions (_Science_ 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree lab (Rutgers University) with a postdoctoral Fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (_PNAS_ 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (_PNAS_ 2011, 108: 20645–20649). On 2012 I was offered a Postdoctoral Position in Swedish University of Agricultural Sciences by Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (_Science_ 2013 339(6127):1608-1611, _Nature Comm._ 2015 6:7414, _PNAS_ 2016, In press). Since 2014 I am a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I published `r get_num_articles("EXdyoWAAAAAJ")` scientific papers cited more than `r ib$total_cites` times (H-index = `r ib$h_index`). I am on the board of the [Spanish Association of Terrestrial Ecology](http://www.aeet.org) (AEET) and in the editorial board of [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). I am an R user and I believe in the open sharing of data, code and ideas to stimulate science advances. Likewise, I find important to be involved in science outreach in order to transfer my results to a wider audience and I contributed to outreach texts in different magazines and gave public talks in schools and public parks.   
 `*`All citation sources: Google-Scholar `r Sys.Date()`
+
+Summary
+-------
+```{r eval=FALSE}
+results <- data.frame(matrix(nrow=6, ncol=2))
+  colnames(results) <- c("", "")
+  results[1,1] <- '**Publications**'
+  results[1,2] <- paste(length(orcid.info$journals)+publications.offset, " journal articles, including ", prominent.pubs, sep="")
+
+  results[2,1] <- '**Teaching**'
+  results[2,2] <- "Approximately 4 courses per year on average, ranging from large introductory biology courses to small graduate seminars"
+
+  results[3,1] <- '**Mentoring**'
+  people <- read.delim2(system.file("extdata", "people.txt", package="cv"), stringsAsFactors=FALSE)
+  results[3,2] <- paste(sum(grepl("PhD student", people$Stage)), " PhD students, ", sum(grepl("Postdoc", people$Stage)), " postdocs, and served on ", sum(grepl("Committee", people$Stage)), " graduate student committees", sep="")
+
+  results[4,1] <- '**Service/Outreach**'
+  results[4,2] <- 'Darwin Day TN advisor, co-organizer of women in science symposium, workshops, and other activities, co-organizer for national meetings, curator of R phylogenetics task view, instructor at workshops in Sweden, Switzerland, Brazil, and various US locations (Ohio, TN, NC)'
+
+  results[5,1] <- '**Funding**'
+  results[5,2] <- paste("$",round((1e-6)*sum(as.numeric(orcid.info$funding$amount.value)),2), "M in external support, including ", sum(grepl("National Science Foundation", orcid.info$funding$organization.name)), " NSF grants (including a CAREER grant) plus funding from iPlant and Encyclopedia of Life", sep="")
+  
+  scholar.id="vpjEkQwAAAAJ"
+  impact.story.id = "0000-0002-0337-5997"
+  g.profile <- scholar::get_profile(scholar.id)
+  github.user <- jsonlite::fromJSON(txt="https://api.github.com/users/bomeara")
+  i.profile <- jsonlite::fromJSON(txt=paste("https://impactstory.org/api/person/", impact.story.id, sep=""))
+  i.sources <- i.profile$sources
+  results[6,1] <- '**Altmetrics**'
+  results[6,2] <- paste("Number of citations = ", g.profile$total_cites, "; h-index = ", g.profile$h_index, "; ", github.user$public_repos, " public github repos; Erdos number = 4; papers have been saved ", subset(i.sources, source_name=="mendeley")$posts_count, " times in reference manager Mendeley, have been tweeted about ", subset(i.sources, source_name=="twitter")$posts_count, " times, and have been mentioned ", subset(i.sources, source_name=="news")$posts_count, " times in the news", sep="")
+
+  cat('\n\n##Summary\n\n ', file=paste(outdir, "/summary.md", sep=""), sep='\n', append=FALSE)
+  cat(capture.output(knitr::kable(results, row.names=FALSE)), file=paste(outdir, "/summary.md", sep=""), sep='\n', append=TRUE)
+```
+
+
+**Publications:**	`r get_num_articles("EXdyoWAAAAAJ")` journal articles, including Science, PNAS, Ann. Rev Ecology, Evolution & Systematics, Ecology Letters, Gobal Change Biology, etc.  
+**Mentoring:**	3 ongoing PhD students, 2 postdocs, and 1 Master thesis  
+**Service/Outreach:**	co-organizer for national meetings, instructor at workshops in ...
+**Funding:**	'r sum(d$money, na.rm = TRUE)' in external support, including EU, national and private funding.  
+**Altmetrics**	Number of citations = `r ib$total_cites` ; h-index = `r ib$h_index`; X public github repos; ...  
+
 
 Education
 ---------
@@ -58,6 +104,106 @@ exp <- subset(d, category == "experience", select = c("date", "value"))
 #can sort by date? need date in readable format :(
 colnames(exp) <- NULL
 pander::pandoc.table(exp, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Mentoring of PhD students
+-------------------------
+
+```{r phd, echo = FALSE, results = "asis"}
+phd <- subset(d, category == "mentoring_phd", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(phd) <- NULL
+pander::pandoc.table(phd, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Publications
+------------
+
+```{r pubs, echo = FALSE, results = "asis"}
+#from csv or from Google/ORCID?
+#pubs <- subset(d, category == "publications", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+#colnames(pubs) <- NULL
+pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FALSE)
+#str(pubs)
+#head(pubs)
+pander::pandoc.table(pubs, split.table = Inf, split.cells = 100, justify = "left")
+#Add in review??
+```
+
+
+
+Teaching and mentoring
+----------------------
+
+```{r teach, echo = FALSE, results = "asis"}
+teach <- subset(d, category == "teaching&mentoring", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(teach) <- NULL
+pander::pandoc.table(teach, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+
+Research Grants
+---------------
+
+```{r grant, echo = FALSE, results = "asis"}
+#need to collate number and total amount as PI?
+grant <- subset(d, category == "Research_grants", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(grant) <- NULL
+pander::pandoc.table(grant, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Presentations in conferences
+----------------------------
+
+```{r conf, echo = FALSE, results = "asis"}
+#need to collate number and total amount as PI?
+conf <- subset(d, category == "Presentations_in_congresses", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(conf) <- NULL
+pander::pandoc.table(conf, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Other publications
+----------------------------
+
+```{r otherpubs, echo = FALSE, results = "asis"}
+otherpubs <- subset(d, category == "Other_publications", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(otherpubs) <- NULL
+pander::pandoc.table(otherpubs, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Evaluator & consulting
+----------------------
+
+```{r eval, echo = FALSE, results = "asis"}
+eval <- subset(d, category == "evaluator&consulting", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(eval) <- NULL
+pander::pandoc.table(eval, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Outreach
+--------
+
+```{r out, echo = FALSE, results = "asis"}
+out <- subset(d, category == "outreach", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(out) <- NULL
+pander::pandoc.table(out, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Invited Talks
+-------------
+
+```{r talks, echo = FALSE, results = "asis"}
+talks <- subset(d, category == "invited_talks", select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(talks) <- NULL
+pander::pandoc.table(talks, split.table = Inf, split.cells = 100, justify = "left")
 ```
 
 

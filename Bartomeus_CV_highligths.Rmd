@@ -1,0 +1,11 @@
+---
+title: "CV"
+author: "I. Bartomeus"
+date: "12 March 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
