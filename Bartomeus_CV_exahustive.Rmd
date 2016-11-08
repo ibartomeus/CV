@@ -7,13 +7,15 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(pander)
+panderOptions('table.alignment.default',
+     function(df) ifelse(sapply(df, is.numeric), 'right', 'left'))
 ```
 
 ```{r data, echo=FALSE}
-library(pander)
 exp_ment <- read.csv("data/experience_mentoring.csv")
 grants <- read.csv("data/grants.csv")
-teach <- read.csv("data/teaching_mentoring.csv")
+teach <- read.csv("data/teaching.csv")
 conf <- read.csv("data/conferences_talks.csv")
 outreach <- read.csv("data/outreach.csv")
 service <- read.csv("data/service_consulting.csv")
@@ -28,13 +30,18 @@ pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FAL
 
 Ignasi Bartomeus
 ================
-
-Info                                                                 |                                                                                                              |
--------------------------------------------------------------------- |  ------------------------------------------------------------------------------------------------------------| 
-E-mail: nacho.bartomeus@gmail.com                                    | Google Scholar: [http://tinyurl.com/bartomeus](http://tinyurl.com/bartomeus)                                 | 
-Date of birth: 09-April-1981                                         | Altmetrics: [https://impactstory.org/IgnasiBartomeus](https://impactstory.org/IgnasiBartomeus)               |   
-Nationality: Spanish                                                 | R code in Github: [https://github.com/ibartomeus](https://github.com/ibartomeus)                             | 
-Webpage: [http://www.bartomeuslab.com](http://www.bartomeuslab.com)  | Twitter: [\@ibartomeus](https://twitter.com/ibartomeus)                                                      |   
+```{r echo = FALSE, results = "asis"}
+info <- data.frame(col1 = c("E-mail: nacho.bartomeus@gmail.com",
+                            "Date of birth: 09-April-1981",
+                            "Nationality: Spanish",
+                            "Webpage: [http://www.bartomeuslab.com](http://www.bartomeuslab.com)"),
+                   col2 = c("Google Scholar: [http://tinyurl.com/bartomeus](http://tinyurl.com/bartomeus)",
+                            "Altmetrics: [https://impactstory.org/IgnasiBartomeus](https://impactstory.org/IgnasiBartomeus)",
+                            "R code in Github: [https://github.com/ibartomeus](https://github.com/ibartomeus)",
+                            "Twitter: [@ibartomeus](https://twitter.com/ibartomeus)"))
+colnames(info) <- NULL
+pander::pandoc.table(info, digits = c(50,50), split.table = Inf, split.cells = 100, justify = "left")
+```
 
 
 Short bio:
@@ -65,7 +72,7 @@ pander::pandoc.table(exp, split.table = Inf, split.cells = 100, justify = "left"
 Mentoring
 ---------
 ```{r phd, echo = FALSE, results = "asis"}
-ment <- subset(exp_ment, category == "mentoring", select = c("position", "date", "value"))
+ment <- subset(exp_ment, category == "mentoring", select = c("date", "position", "value"))
 #can sort by date? need date in readable format :(
 colnames(ment) <- NULL
 rownames(ment) <- NULL
@@ -99,23 +106,31 @@ pander::pandoc.table(pubs, split.table = Inf, split.cells = 100, justify = "left
 
 Research Grants
 ---------------
-**Funding:**	`r sum(d$money, na.rm = TRUE)` in external support, including EU, national and private funding.  
+**Funding:**	`r sum(grants$money, na.rm = TRUE)` in external support, including EU, national and private funding.  
 
 ```{r grant, echo = FALSE, results = "asis"}
 #need to collate number and total amount as PI?
-grant <- subset(d, category == "Research_grants", select = c("date", "value"))
+grant_IP <- subset(grants, category == "Research_grants" & PI %in% c("PI", "Co-PI"),
+                   select = c("date", "value", "money"))
 #can sort by date? need date in readable format :(
-colnames(grant) <- NULL
-rownames(grant) <- NULL
-pander::pandoc.table(grant, split.table = Inf, split.cells = 100, justify = "left")
+colnames(grant_IP) <- c("Grants as PI", "grant", "EUR")
+rownames(grant_IP) <- NULL
+pander::pandoc.table(grant_IP, split.table = Inf, split.cells = 100, justify = "left")
+
+grant_ <- subset(grants, category == "Research_grants" & !PI %in% c("PI", "Co-PI"),
+                   select = c("date", "value"))
+#can sort by date? need date in readable format :(
+colnames(grant_) <- c("Grants as Researcher", "grant")
+rownames(grant_) <- NULL
+pander::pandoc.table(grant_, split.table = Inf, split.cells = 100, justify = "left")
 ```
 
 
-Teaching and mentoring
-----------------------
+Teaching
+--------
 
 ```{r teach, echo = FALSE, results = "asis"}
-teach <- subset(d, category == "teaching&mentoring", select = c("date", "value"))
+teach <- subset(teach, category == "teaching", select = c("date", "value"))
 #can sort by date? need date in readable format :(
 colnames(teach) <- NULL
 rownames(teach) <- NULL
@@ -127,22 +142,23 @@ Presentations in conferences
 
 ```{r conf, echo = FALSE, results = "asis"}
 #need to collate number and total amount as PI?
-conf <- subset(d, category == "Presentations_in_congresses", select = c("date", "value"))
+conf_ <- subset(conf, category == "Presentations_in_congresses", select = c("date", "place", "value"))
 #can sort by date? need date in readable format :(
-colnames(conf) <- NULL
-rownames(conf) <- NULL
-pander::pandoc.table(conf, split.table = Inf, split.cells = 100, justify = "left")
+colnames(conf_) <- NULL
+rownames(conf_) <- NULL
+pander::pandoc.table(conf_, split.table = Inf, split.cells = 100, justify = "left")
 ```
 
 Other publications
 ----------------------------
 
 ```{r otherpubs, echo = FALSE, results = "asis"}
-otherpubs <- subset(d, category == "Other_publications", select = c("date", "value"))
+#manually? remove?
+#otherpubs <- subset(d, category == "Other_publications", select = c("date", "value"))
 #can sort by date? need date in readable format :(
-colnames(otherpubs) <- NULL
-rownames(otherpubs) <- NULL
-pander::pandoc.table(otherpubs, split.table = Inf, split.cells = 100, justify = "left")
+#colnames(otherpubs) <- NULL
+#rownames(otherpubs) <- NULL
+#pander::pandoc.table(otherpubs, split.table = Inf, split.cells = 100, justify = "left")
 ```
 
 Service, Evaluator & consulting
@@ -150,7 +166,7 @@ Service, Evaluator & consulting
 Board of the "Asociación Española de Ecologia Terrestre" and  Asociate Editor of Journal of Ecology. Co-organizer for national meetings, instructor at R workshops, ...
 
 ```{r eval, echo = FALSE, results = "asis"}
-eval <- subset(d, category == "evaluator&consulting", select = c("date", "value"))
+eval <- subset(service, category == "evaluator&consulting", select = c("date", "value"))
 #can sort by date? need date in readable format :(
 colnames(eval) <- NULL
 rownames(eval) <- NULL
@@ -161,7 +177,7 @@ Outreach
 --------
 
 ```{r out, echo = FALSE, results = "asis"}
-out <- subset(d, category == "outreach", select = c("date", "value"))
+out <- subset(outreach, category == "outreach", select = c("date", "value"))
 #can sort by date? need date in readable format :(
 colnames(out) <- NULL
 rownames(out) <- NULL
@@ -172,7 +188,7 @@ Invited Talks
 -------------
 
 ```{r talks, echo = FALSE, results = "asis"}
-talks <- subset(d, category == "invited_talks", select = c("date", "value"))
+talks <- subset(conf, category == "invited_talks", select = c("date", "place", "value"))
 #can sort by date? need date in readable format :(
 colnames(talks) <- NULL
 rownames(talks) <- NULL
