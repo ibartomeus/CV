@@ -82,6 +82,8 @@ pander::pandoc.table(ment, split.table = Inf, split.cells = 100, justify = "left
 Publications
 ------------
 
+I am amongst the 1% most cited researchers in the last 10 years in the Ecology/Environment cathegorry:
+
 **Publications:**	`r get_num_articles("EXdyoWAAAAAJ")` journal articles, including *Science*, *PNAS*, *Nature comm.*, *Ann. Rev Ecology, Evolution & Systematics*, *Ecology Letters*, *Gobal Change Biology*, etc.  
 **Altmetrics**	Number of citations = `r ib$total_cites` ; h-index = `r ib$h_index`; 19 public github repos; ...  
 
@@ -151,6 +153,7 @@ pander::pandoc.table(conf_, split.table = Inf, split.cells = 100, justify = "lef
 
 Other publications
 ----------------------------
+#Add mCT Alba
 
 ```{r otherpubs, echo = FALSE, results = "asis"}
 #manually? remove?
@@ -207,7 +210,7 @@ Informatic and Programing skills:
 
 * Advanced level informatics (Macintosh & Windows). Proficiency on a wide array of office automation software.  
 
-* Advanced use of R programming language and statistical packages. Git user [(https://github.com/ibartomeus)](https://github.com/ibartomeus). Contributed to R package originr [(http://cran.r-project.org/web/packages/originr/)](http://cran.r-project.org/web/packages/originr/). Founder and organizer of the R users meetings of Seville.  
+* Advanced use of R programming language and statistical packages. Git user [(https://github.com/ibartomeus)](https://github.com/ibartomeus). Contributed to R package originr [(http://cran.r-project.org/web/packages/originr/)](http://cran.r-project.org/web/packages/originr/). Founder and organizer of the R users meetings of Seville.  romdb package
 
 * Experience on modelling (i.e. MaxEnt) and writting simple simulations in R.   
 
