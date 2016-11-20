@@ -1,18 +1,26 @@
-highlight,short,category,date,place,money,value,extra
-TRUE,NA,Presentations_in_congresses,2015,NA,NA,"Bartomeus, I. Mass flowering crops alter plant-pollinator networks. Gfö meeting. Göttingen, Germany. . Oral Presentation. September 2015",NA
-TRUE,NA,Presentations_in_congresses,2014,NA,NA,"Bartomeus, I. Are plant-pollinator networks enhancing stability? BES meeting. Lille. . Oral Presentation. December 2014",NA
-TRUE,NA,Presentations_in_congresses,2013,NA,NA,"Bartomeus, I. Bee tongue length and its uses in ecology. ESA meeting. Sacramento. . Oral Presentation. August 2013",NA
-TRUE,NA,Presentations_in_congresses,2012,NA,NA,"Bartomeus, I., Bommarco, R. When pollination is limiting? SCAPE meeting. Norway. Oral Presentation. October 2012.",NA
-TRUE,NA,Presentations_in_congresses,2012,NA,NA,"Bartomeus, I., J Ascher, and R Winfree. Historical changes in northeastern US bee pollinators related to shared ecological traits. Oral Presentation. Ecological Society of America meeting, Portland, August 2012 ",NA
-TRUE,NA,Presentations_in_congresses,2012,NA,NA,"Bartomeus I; Sol D; Griffin A. Exploring or Avoiding Novel Food Resources? The Novelty Conflict in an Invasive Bird. Oral presentation. Animal Behavior Society,
- Alburquerque, United States of America, May 2012",NA
-TRUE,NA,Presentations_in_congresses,2011,NA,NA,"Bartomeus, I., J Ascher, S Colla, D Wagner, B Danforth, S Kornbluh, and R Winfree. Climate-associated phenological advances in bee pollinators and bee-pollinated plants Invasive plants affecting native pollinators. Oral Presentation. Entomological Society of America meeting, Reno, November 2011 ",NA
-TRUE,NA,Presentations_in_congresses,2011,NA,NA,"Albretch, M., Padrón, B. Bartomeus, I. Traveset, A. Aliens in the community: consequences of plant invasions on compartmentalization and species’ roles in plant–pollinator networks. 12 European Ecological Federation Congress, Avila, September 2011",NA
-TRUE,NA,Presentations_in_congresses,2009,NA,NA,"Bartomeus, I. Invasive plants affecting native pollinators. Oral Presentation. Apimondia, Montpellier, September 2009 ",NA
-TRUE,NA,Presentations_in_congresses,2008,NA,NA,"Bartomeus, I., Vilà, M., Steffan-Dewenter, I.; The effect of the invasive plant Impatiens glandulifera overcomes landscape effects on Plant-pollinator networks. Poster. Ecology and evolution of plant animal interactions. Asociación Española de Ecología Terrestre (AEET), Mallorca, April 2008",NA
-TRUE,NA,Presentations_in_congresses,2008,NA,NA,"Bartomeus, I., Bosch, J.,  Vilà, M; Pollen transfer networks. From Invasive anthers to native stigmas. Oral presentation. Ecoflor 2008. Asociación Española de Ecología Terrestre (AEET), Valencia, February 2008",NA
-TRUE,NA,Presentations_in_congresses,2008,NA,NA,"Bartomeus I, Vila, M; Plant pollination networks, Dealing with invasive plants and landscape complexity, Oral presentation, ALARM 2008 meeting, Sevilla. February 2008",NA
-TRUE,NA,Presentations_in_congresses,2006,NA,NA,"Vilà, M., Bartomeus, I; Impact of plant invaders on plant-pollinator interactions; 4º European Conference on Biological Invasions, Neobiota. Viena. 27.-29 September 2006",NA
-TRUE,NA,Presentations_in_congresses,2005,NA,NA,"Bartomeus, I., Vilà, M., Santamaria, L. Garcia-Gironès, M.; Diversity in Mediterranean plant-pollinator networks: Do invasive plants have an effect? La unidad en la diversidad (Un congreso de ecologia tras el legado de Ramón Margalef). Barcelona, 16-18 Novemver 2005.",NA
-TRUE,NA,Presentations_in_congresses,2004,NA,NA,"Vilà, M., Gimeno, I. and Bartomeus, I.; Does invasion by an alien plant species affects soil seed bank?; MEDECOS 10 th international conference. Rhodes Island, Greece 25 April- 1 May 2004.",NA
-TRUE,NA,invited_talks,NA,NA,NA,NA,NA
+highlight;short;category;Period;Place;Contribution;Title
+TRUE;NA;Presentations_in_congresses;2005;Spain;Poster;"Bartomeus, I., Vilà, M., Santamaria, L. Garcia-Gironés, M.; Diversity in Mediterranean plant-pollinator networks: Do invasive plants have an effect? La unidad en la diversidad (Un congreso de ecologia tras el legado de Ramón Margalef). Barcelona."
+TRUE;NA;Presentations_in_congresses;2008;Spain;Poster;"Bartomeus, I., Vilà, M., Steffan-Dewenter, I.; The effect of the invasive plant _Impatiens glandulifera_ overcomes landscape effects on Plant-pollinator networks. Ecology and evolution of plant animal interactions. Asociación Española de Ecología Terrestre (AEET), Mallorca."
+TRUE;NA;Presentations_in_congresses;2008;Spain;Oral contribution;"Bartomeus, I., Bosch, J.,  Vilà, M; Pollen transfer networks. From Invasive anthers to native stigmas. Ecoflor 2008. Asociación Española de Ecología Terrestre (AEET), Valencia."
+TRUE;NA;Presentations_in_congresses;2008;Spain;Oral contribution;"Bartomeus I, Vilà, M; Plant pollination networks, Dealing with invasive plants and landscape complexity, ALARM 2008 meeting, Sevilla."
+TRUE;NA;Presentations_in_congresses;2009;France;Invited oral contribution;Bartomeus, I. Invasive plants affecting native pollinators. Apimondia, Montpellier.
+TRUE;NA;Presentations_in_congresses;2011;USA;Oral contribution;Bartomeus, I., J Ascher, S Colla, D Wagner, B Danforth, S Kornbluh, and R Winfree. Climate-associated phenological advances in bee pollinators and bee-pollinated plants. Entomological Society of America meeting, Reno.
+TRUE;NA;Presentations_in_congresses;2012;Norway;Oral contribution;Bartomeus, I., Bommarco, R. When pollination is limiting? SCAPE meeting.
+TRUE;NA;Presentations_in_congresses;2012;USA;Oral contribution;Bartomeus, I., J Ascher, and R Winfree. Historical changes in northeastern US bee pollinators related to shared ecological traits. Ecological Society of America meeting, Portland.
+TRUE;NA;Presentations_in_congresses;2012;USA;Oral contribution;"Bartomeus I; Sol D; Griffin A. Exploring or Avoiding Novel Food Resources? The Novelty Conflict in an Invasive Bird. Oral presentation. Animal Behavior Society,
+ Alburquerque."
+TRUE;NA;Presentations_in_congresses;2014;USA;Oral contribution;Bartomeus, I. Bee traits predict functional loss in agroecosystems. Ecological Society of America, Minnesota. 
+TRUE;NA;Presentations_in_congresses;2013;USA;Oral contribution;Bartomeus, I. Bee tongue length and its uses in ecology. Ecological Society of America meeting. Sacramento.
+TRUE;NA;Presentations_in_congresses;2014;France;Invited oral contribution;Bartomeus, I. Are plant-pollinator networks enhancing stability? British Ecological Society meeting. Lille.
+TRUE;NA;Presentations_in_congresses;2014;Sweden;Poster;Bartomeus, I. Bringing together different systems to explain crop yield. Nordic Oikos Symposium. (http://f1000research.com/posters/1094977)
+TRUE;NA;Presentations_in_congresses;2015;Germany;Invited oral contribution;Bartomeus, I. Mass flowering crops alter plant-pollinator networks. Gfö meeting. Göttingen.
+TRUE;NA;Workshop;2015;Roma;Workshop;Super-B COST action meeting. Rome.
+TRUE;NA;invited_talks;2016;Switzerland;NA;Swiss Federal Institute of Aquatic Science and Technology (AEGAW). Zurich. Invited by Dr. Simone Fontana.
+TRUE;NA;invited_talks;2013;France;NA;"""Musée national d’histoire naturelle"", Paris. Invited by Dr. Emmanuelle Porcher."
+TRUE;NA;invited_talks;2014;UK;NA;WEB seminar series. University of Bristol. Invited by Jane Memmott.
+TRUE;NA;Workshop;2016;Canada;Workshop;Workshop on predicting Species Interactions. Montreal. Invited by Dr. Gravel.
+TRUE;NA;invited_talks;2016;Spain;NA;La Mayora, CSIC, Malaga. Invited by Dr. Eduardo de la Peña.
+TRUE;NA;Presentations_in_congresses;2015;Portugal;Invited oral contribution;Bartomeus, I. Predicting functional consequences of species loss. Coimbra, Portugal
+TRUE;NA;Presentations_in_congresses;2015;Spain;Oral contribution;Bartomeus, I. An empirical evaluation of the role of network structure for community stability. ECOFLOR, Zahara de los atunes, Spain.
+TRUE;NA;Presentations_in_congresses;2016;Sweden;Poster;Bartomeus, I. Predicting ecosystem functions: It's getting hairy. SCAPE meeting. Abisko.
+TRUE;NA;invited_talks;2009;USA;NA;Rutgers University. New Jersey. Invited by Dr. Rachael Winfree.

@@ -1,17 +1,27 @@
-highlight,short,category,date,value,position
-TRUE,NA,experience,2014 - Present, Ramón y Cajal researcher at Estación Biológica de Doñana (EBD-CSIC). ,NA
-TRUE,NA,experience,2012 - 2014," PostDoctoral researcher at Dr. Riccardo Bommarco  lab (SLU, Sweden).",NA
-TRUE,NA,experience,2010 - 2012," PostDoctoral fellow at Dr. Winfree laboratory (Rutgers University, USA), Funded through a Spanish Education Ministry Postdoctoral Fellowship."
-TRUE,NA,experience,2009 - 2010," PostDoctoral researcher at Dr. Sol laboratory (CREAF; Center for Ecological Research and Forestry Applications, Spain)",NA
-FALSE,NA,experience,2008 - 2008, Research assistant in the FLEXIADAPT project (CREAF), NA
-TRUE,NA,experience,2004 - 2008," Predoctoral fellowship (UAB-CREAF). Funded through the ALARM Project (Assessing LArge scale enviromental Risks for biodiversity with tested Methods, UE 6th FP)", NA
-FALSE,NA,experience,2007 - 2007, Lab Technician (part time job) in the molecular biology laboratory “Semillas Fito” (Spain).,NA
-FALSE,NA,experience,2006 - 2006," Intership in the Agroecological Institute of Gottingen University (Germany), with Dr. Steffan-Dewenter.",NA
-FALSE,NA,experience,2003 – 2004, Research assistant fellowship in the Ecology Department at UAB. Funded by  Ministerio Español de Ciencia y Tecnologia.,NA
-FALSE,NA,experience,2002 – 2003, Internship at CREAF working on the “Epidemie” project,NA
-TRUE,NA,mentoring,2015 – Present,Carlos Zaragoza: Synergies between Glogal change drivers on bee populations.,PhD
-TRUE,NA,mentoring,2015 – Present,Miguel Ángel Collado: Brain structures of bee species and its relation to behaviour (FPI: SURVIVE HIREC project). ,PhD
-TRUE,NA,mentoring,2013 – Present,Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functinal Biodiversity as a tool to enhance crop production.,PhD
-TRUE,NA,mentoring,2016 – 2018,Cristina Botías: bee-pathogens networks (Juan de la Cierva).,Postdoc
-TRUE,NA,mentoring,2015 – 2016,Ainhoa Magrach: plant-pollinator networks in agroecosystems (ECODEAL project).,Postdoc
-TRUE,NA,mentoring,2015 – 2016,José Barragan: competition and mutualism as drivers of plant coexistence.,Master
+highlight;short;category;Period;Position;position
+TRUE;NA;experience;2014 - Present; Ramón y Cajal researcher at Estación Biológica de Doñana (EBD-CSIC). ;NA
+TRUE;NA;experience;2012 - 2014; Postdoctoral researcher at Dr. Riccardo Bommarco laboratory (SLU, Sweden).;NA
+TRUE;NA;experience;2014 - 2014; Short stage at Universidad RioNegro (Bariloche , Argentina) to work with Dr. Lucas Garibaldi.;NA
+TRUE;NA;experience;2010 - 2012; Postdoctoral fellow at Dr. Winfree laboratory (Rutgers University, USA), Funded through a Spanish Education Ministry Postdoctoral Fellowship (EX2009- 1017).;NA
+TRUE;NA;experience;2009 - 2010;" Postdoctoral researcher at Dr. Sol laboratory (CREAF; Center for Ecological Research and Forestry Applications, Spain)";NA
+FALSE;NA;experience;2008 - 2008; Research assistant in the FLEXIADAPT project (CREAF); NA
+TRUE;NA;experience;2004 - 2008; Predoctoral fellowship (UAB-CREAF). Funded through the ALARM Project (Assessing LArge scale enviromental Risks for biodiversity with tested Methods, UE 6th FP); NA
+FALSE;NA;experience;2007 - 2007; Lab Technician (part time job) in the Molecular Biology laboratory _Semillas Fito_ (Spain).;NA
+FALSE;NA;experience;2006 - 2006; Intership in the Agroecological Institute of Gottingen University (Germany), with Dr. Steffan-Dewenter.;NA
+FALSE;NA;experience;2003 - 2004; Research assistant fellowship in the Ecology Department at UAB (Universidad Autónoma de Barcelona). Funded by  Ministerio Español de Ciencia y Tecnologia.;NA
+FALSE;NA;experience;2002 - 2003; Internship at CREAF working on the _Epidemie_ project.;NA
+TRUE;NA;mentoring;2015 - Present; Carlos Zaragoza: Synergies between Glogal change drivers on bee populations.;PhD student
+TRUE;NA;mentoring;2015 - Present; Miguel Ángel Collado: Brain structures of bee species and its relation to behaviour (FPI: SURVIVE HIREC project). ;PhD student
+TRUE;NA;mentoring;2013 - Present; Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functinal Biodiversity as a tool to enhance crop production.;PhD student
+TRUE;NA;mentoring;2016 - 2018; Cristina Botías: bee-pathogen networks (Juan de la Cierva).;Postdoctoral researcher
+TRUE;NA;mentoring;2015 - 2016; Ainhoa Magrach: plant-pollinator networks in agroecosystems (ECODEAL project).;Postdoctoral researcher
+TRUE;NA;mentoring;2015 - Present; Curro Molina: Lab manager;Technician
+TRUE;NA;mentoring;2015 - 2016; José Barragán: competition and mutualism as drivers of plant coexistence.;Master student
+TRUE;NA;visits;2016; Stijn Van Gils. Nederlands (Super-B Short term mission);lab visitor
+TRUE;NA;visits;2015; Florence Hecq. Irland (Super-B Short term mission);lab visitor
+TRUE;NA;visits;2015; Rachael Winfree. US (1 week);lab visitor
+TRUE;NA;visits;2016; Romina Rader. Australia (1 week);lab visitor
+TRUE;NA;visits;2014; Mark Genung. US (1 week);lab visitor
+TRUE;NA;visits;2016; Ferran Sayol, Spain (1 week);lab visitor
+TRUE;NA;visits;2015; Jamie Stavert, New Zealand (3 months);lab visitor
+TRUE;NA;visits;2016; Simone Fontana, Switzerland (1 week);lab visitor

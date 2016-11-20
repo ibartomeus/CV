@@ -1,10 +1,14 @@
-highlight,short,category,date,PI,money,value
-TRUE,NA,Research_grants,2015 - 2016,PI,35000,“Entendiendo el pasado para predecir el Futuro de los polinizadores”. Proyecto Fundación BBVA para jovenes investigadores. PI: I. Bartomeus
-TRUE,NA,Research_grants,2015 - 2017,PI,65000,“Unificando estructura de redes y coexistencia entre especies” (LINCX). Proyecto Explora Ciencia (MINECO). PI: I.Bartomeus
-TRUE,NA,Research_grants,2015 - 2018,Researcher,NA,Enhancing biodiversity-based ecosystem services to crops through optimized densities of green infrastructure in agricultural landscapes (BiodivERsA-FACCE2014-68: ECODEAL). IP: Yann Clought (collaborating 5 EU countries and 20 researchers)
-TRUE,NA,Research_grants,2014 - 2017,PI,100000,Pollinator responses to global change and its implications for ecosystem functioning. (BeeFun). Project EU FP7 MC-CIG. PI: I. Bartomeus.
-TRUE,NA,Research_grants,2014 - 2017,Co-PI,165000,Life history strategies to cope with human-induced rapid environmental changes (Survive-Hirec). Plan Nacional MINECO. PI: D. Sol & I.Bartomeus
-TRUE,NA,Research_grants,2013 - 2014,Co-PI,25000,Managing Ecosystem Services in Field Bean. 2013. CL Behm Fund baljväxtodling. IP: I. Bartomeus & R. Bommarco.
-TRUE,NA,Research_grants,2012-2014,Researcher,NA,"Respuesta de las aves a los cambios ambientales: ¿Muchos perdedores y pocos ganadores? (CGL2010-21838; Ministerio de Ciencia y Educación). PI: Dr. D Sol."
-TRUE,NA,Research_grants,2012-2013,Researcher,NA,"How many species are required for ecosystem services? (Faculty research grant program; Granting agency: Rutgers University). PI: Dr. R Winfree.
-TRUE,NA,Research_grants,2011-2012,Researcher,NA,"Assessing pollinator changes using a 140 years data set. (Pre tenure faculty award; Granting agency: Rutgers University). PI: Dr. R Winfree.
+highlight;short;category;Period;Amount;Title;Agency
+TRUE;NA;PI;2015 - 2016;35000;Entendiendo el pasado para predecir el futuro de los polinizadores. Proyecto Fundación BBVA para jóvenes investigadores. PI: I. Bartomeus;FBBVA
+TRUE;NA;PI;2015 - 2017;65000;Unificando estructura de redes y coexistencia entre especies (LINCX). Proyecto Explora Ciencia (MINECO). PI: I.Bartomeus;MINECO
+TRUE;NA;Researcher;2015 - 2018;NA;Enhancing biodiversity-based ecosystem services to crops through optimized densities of green infrastructure in agricultural landscapes (BiodivERsA-FACCE2014-68: ECODEAL). PI: Yann Clought (collaborating 5 EU countries and 20 researchers);Biodiversa
+TRUE;NA;PI;2014 - 2017;100000;Pollinator responses to global change and its implications for ecosystem functioning (BeeFun). Project EU FP7 MC-CIG. PI: I. Bartomeus.;MC-CIG
+TRUE;NA;Co-PI;2014 - 2017;165000;Life history strategies to cope with human-induced rapid environmental changes (Survive-Hirec). Plan Nacional, PI: D. Sol & I.Bartomeus;MINECO
+TRUE;NA;Co-PI;2013 - 2014;25000;Managing Ecosystem Services in Field Bean. 2013. CL Behm Fund baljväxtodling. PI: I. Bartomeus & R. Bommarco.;Behm Fund
+TRUE;NA;Researcher;2013 - 2016;NA;LIBERATION: LInking farmland Biodiversity to Ecosystem seRvices for effective ecofunctional intensificATION (Biodiversa) PI: David Klein;Biodiversa
+TRUE;NA;Researcher;2012 - 2014;NA;Flexibilidad del comportamiento y adaptación a cambios ambientales (FLEXIADAPT) Plan Nacional, PI: D. Sol;MINECO
+TRUE;NA;Researcher;2012 - 2012;NA;How many species are required for ecosystem services? Faculty research grant program. Rutgers University. PI: R. Winfree;Rutgers University
+TRUE;NA;Researcher;2012 - 2014;NA;SAPES Multifunctional Agriculture: Harnessing Biodiversity for Sustaining Agricultural Production and Ecosystem Services PI: Henrick Smith;FORMAS
+TRUE;NA;Researcher;2010 - 2010;NA;Assessing pollinator changes using a 140 years data set. Pre tenure faculty award. PI: Rachael Winfree;Rutgers University
+TRUE;NA;Researcher;2005 - 2007;NA;INVASRED: Efecto de las especies invasoras en las redes de polinización. PI: Montse Vilà;MINECO
+TRUE;NA;Researcher;2004 - 2008;NA;ALARM:  Assessing LArge-scale environmental Risks with tested Methods (GOCE-CT-2003-506675). PI: Josef Settele;EU FP-6

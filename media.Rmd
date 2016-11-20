@@ -1,0 +1,22 @@
+---
+output:
+  html_document: 
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(pander)
+panderOptions('table.alignment.default',
+     function(df) ifelse(sapply(df, is.numeric), 'right', 'left'))
+```
+
+
+```{r data, echo = FALSE, results = "asis"}
+media <- read.csv("data/media.csv", header = TRUE, sep = ";")
+#head(media)
+pander::pandoc.table(media, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+
+
