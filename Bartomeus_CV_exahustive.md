@@ -30,7 +30,7 @@ Ignacio Bartomeus Roig
 Short bio:
 ----------
 
-I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I focus on pollinators and their function: the pollination of 80% of the worldwide plant species. I obtained my PhD (*Suma Cum Laude*) in 2008 at the “Universidad Autónoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (*Oecologia* 2008, 155:761-770; 163 citations). In 2009 I did a short postdoctoral stage with Dr. Daniel Sol (CREAF-CSIC) exploring the role of life history traits on explaining biological invasions (*Science* 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree lab (Rutgers University) with a postdoctoral fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (*PNAS* 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (*PNAS* 2011, 108: 20645–20649). On 2012 I took a postdoctoral position in the Swedish University of Agricultural Sciences with Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (*Science* 2013 339:1608-1611, *Nature Comm.* 2015 6:7414, *PNAS* 2016 113, 146-151). Since 2014 I run my own lab as a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I published 35 scientific papers cited more than 2153 times (H-index = 22). I am on the board of the [Spanish Association of Terrestrial Ecology](http://www.aeet.org) (AEET) and in the editorial board of [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). I am an advanced R user and I believe in the open sharing of data, code and ideas to stimulate science advance. Likewise, I find important to be involved in science outreach in order to transfer my results to the society. I created outreach material for different media and gave public talks in schools and public spaces.
+I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I focus on pollinators and their function: the pollination of 80% of the worldwide plant species. I obtained my PhD (*Suma Cum Laude*) in 2008 at the “Universidad Autónoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (*Oecologia* 2008, 155:761-770; 163 citations). In 2009 I did a short postdoctoral stage with Dr. Daniel Sol (CREAF-CSIC) exploring the role of life history traits in explaining biological invasions (*Science* 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree's lab (Rutgers University) with a postdoctoral fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (*PNAS* 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (*PNAS* 2011, 108: 20645–20649). On 2012 I took a postdoctoral position in the Swedish University of Agricultural Sciences with Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (*Science* 2013 339:1608-1611, *Nature Comm.* 2015 6:7414, *PNAS* 2016 113, 146-151). Since 2014 I have run my own lab, as a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I have published 35 scientific papers cited more than 2153 times (H-index = 22). I am on the board of the [Spanish Association of Terrestrial Ecology](http://www.aeet.org) (AEET) and the editorial board of [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). I am an advanced R user and I believe in the open sharing of data, code and ideas to stimulate science advance. Likewise, I find it important to be involved in science outreach in order to transfer my results and knowledge to society. I have created outreach material for different media and give public talks in schools and public spaces.
 &gt; All citation sources: Google-Scholar 2016-11-21
 
 Education
@@ -134,7 +134,7 @@ Bartomeus lab members
 <tr class="odd">
 <td align="left">2013 - Present</td>
 <td align="left">PhD student</td>
-<td align="left">Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functinal Biodiversity as a tool to enhance crop production.</td>
+<td align="left">Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functional Biodiversity as a tool to enhance crop production.</td>
 </tr>
 <tr class="even">
 <td align="left">2016 - 2018</td>
@@ -162,7 +162,7 @@ Bartomeus lab members
 Publications
 ------------
 
-I published 35 scientific papers, which were cited more than 2153 times (H-index = 22). I am among the 10% most cited researchers in the last 5 years in the Ecology/Environment cathegory according to the Essential Science indicators of the Web of Science.
+I have published 35 scientific papers, which have been cited more than 2153 times (H-index = 22). I am among the 10% most cited researchers in the last 5 years in the Ecology/Environment cathegory according to the *Essential Science Indicators* of the Web of Science.
 
 <table>
 <colgroup>
@@ -530,9 +530,9 @@ I published 35 scientific papers, which were cited more than 2153 times (H-index
 Research Grants
 ---------------
 
-Since 2013 I got 390000 EUR in external support, including European, national and private funding.
+Since 2013 I have received 390000 EUR in external support, including European, national and private funding.
 
-**Projects where I am principal investigator (PI) or where I had a main role in writting and executting the project.**
+**Projects in which I am principal investigator (PI), or had a main role in writing and executing the project.**
 
 <table>
 <colgroup>
@@ -583,7 +583,7 @@ Since 2013 I got 390000 EUR in external support, including European, national an
 </tbody>
 </table>
 
-**Projects where I actively participated as researcher**
+**Projects in which I actively participated as a researcher**
 
 <table>
 <colgroup>
@@ -720,7 +720,7 @@ Teaching
 Presentations in conferences
 ----------------------------
 
-I participated in 17 national and international conferences as main presenter.
+I have participated in 17 national and international conferences as main presenter.
 
 <table>
 <colgroup>
@@ -846,7 +846,7 @@ I participated in 17 national and international conferences as main presenter.
 Service, evaluator & consulting
 -------------------------------
 
-I am commited to contribute to the advance of science by serving in national and international scientific organizations, by offering consulting and transference services to the private sector and co-organizing national scientific meetings and workshops.
+I am commited to contributing to the advancement of science by serving in national and international scientific organizations, by offering consulting and transference services to the private sector, and co-organizing national scientific meetings and workshops.
 
 **Service**
 
@@ -864,7 +864,7 @@ I am commited to contribute to the advance of science by serving in national and
 <tbody>
 <tr class="odd">
 <td align="left">2017</td>
-<td align="left">Organization cometee of the AEET-MEDECOS meeting and responsible of the mentoring program. Sevilla.</td>
+<td align="left">Organization committee of the AEET-MEDECOS meeting and responsible of the mentoring program. Sevilla.</td>
 </tr>
 <tr class="even">
 <td align="left">2017</td>
@@ -872,7 +872,7 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="odd">
 <td align="left">2016 – Present</td>
-<td align="left">Member of the cometee for re-organizing the long term monitoring program for Doñana Natural Park.</td>
+<td align="left">Member of the committtee for re-organizing the long term monitoring program for Doñana Natural Park.</td>
 </tr>
 <tr class="even">
 <td align="left">2016 - Present</td>
@@ -880,15 +880,15 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">Participation on the European Food Safety Authority (ESFA) expert cometee. <a href="http://efsa4bees.efsa.europa.eu/content/swarming-ideas" class="uri">http://efsa4bees.efsa.europa.eu/content/swarming-ideas</a></td>
+<td align="left">Participation on the European Food Safety Authority (ESFA) expert committtee. <a href="http://efsa4bees.efsa.europa.eu/content/swarming-ideas" class="uri">http://efsa4bees.efsa.europa.eu/content/swarming-ideas</a></td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Master Thesis cometee member for Universidad Pablo Olavide (UPO) master students 2015-2016</td>
+<td align="left">Master Thesis committtee member for Universidad Pablo Olavide (UPO) master students 2015-2016</td>
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">PhD Thesis cometee of Ana Torne. UAB</td>
+<td align="left">PhD Thesis committtee of Ana Torne. UAB</td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
@@ -908,7 +908,7 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="even">
 <td align="left">2015</td>
-<td align="left">PhD Thesis cometee Molly Mc Leod. Rutgers Univerity, USA.</td>
+<td align="left">PhD Thesis committtee of Molly McLeod. Rutgers Univerity, USA.</td>
 </tr>
 <tr class="odd">
 <td align="left">2014 - Present</td>
@@ -916,7 +916,7 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="even">
 <td align="left">2014</td>
-<td align="left">PhD Thesis cometee Ana Montero-castaño. UAM</td>
+<td align="left">PhD Thesis committtee committtee Ana Montero-Castaño. UAM</td>
 </tr>
 <tr class="odd">
 <td align="left">2014</td>
@@ -928,7 +928,7 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="odd">
 <td align="left">2008 - Present</td>
-<td align="left">Reviewer of more than 50 articles for the principal multidisciplinary and ecology journals, including Nature, Science, PNAS, Ecology Letters, .... Full verifyed list at <a href="https://publons.com/author/15494/ignasi-bartomeus#profile" class="uri">https://publons.com/author/15494/ignasi-bartomeus#profile</a></td>
+<td align="left">Reviewer of more than 50 articles for the principal multidisciplinary and ecology journals, including Nature, Science, PNAS, Ecology Letters, .... Full verified list at <a href="https://publons.com/author/15494/ignasi-bartomeus#profile" class="uri">https://publons.com/author/15494/ignasi-bartomeus#profile</a></td>
 </tr>
 </tbody>
 </table>
@@ -961,11 +961,11 @@ I am commited to contribute to the advance of science by serving in national and
 </tr>
 <tr class="even">
 <td align="left">2015</td>
-<td align="left">Evaluator fpr “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
+<td align="left">Evaluator for “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
 </tr>
 <tr class="odd">
 <td align="left">2015</td>
-<td align="left">Panel member of the Noweigian Research Council (3 day pannel for the program: MILJOFORSK)</td>
+<td align="left">Panel member of the Noweigian Research Council (3 day panel for the program: MILJOFORSK)</td>
 </tr>
 <tr class="even">
 <td align="left">2014 &amp; 2016</td>
@@ -1006,7 +1006,7 @@ I am commited to contribute to the advance of science by serving in national and
 Outreach
 --------
 
-I enjoy explaining science to the society and contributing to increase scientific based awareness about important topics, like biodiversity decline.
+I enjoy explaining science to society and increasing scientific based awareness about important topics like biodiversity decline.
 
 <table>
 <colgroup>
@@ -1016,11 +1016,11 @@ I enjoy explaining science to the society and contributing to increase scientifi
 <tbody>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">Outreach video explaining what happens to the bees. Translated to English, Spanish, Catalan and Eskera and reaching more than 20.000 visist in youtube (<a href="https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ" class="uri">https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ</a>)</td>
+<td align="left">Outreach video explaining what is happening to bees. Translated to English, Spanish, Catalan and Eskera and reaching more than 20.000 views in YouTube (<a href="https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ" class="uri">https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ</a>)</td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Organizing cometee of &quot;pint of science 2017&quot; in Sevilla (<a href="https://pintofscience.es/" class="uri">https://pintofscience.es/</a>)</td>
+<td align="left">Organizing committtee of &quot;pint of science 2017&quot; in Sevilla (<a href="https://pintofscience.es/" class="uri">https://pintofscience.es/</a>)</td>
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
@@ -1028,7 +1028,7 @@ I enjoy explaining science to the society and contributing to increase scientifi
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Sevilla Science Fair (5-7 mayo 2016). Worshop about bee nests.</td>
+<td align="left">Sevilla Science Fair (5-7 mayo 2016). Workshop about bee nests.</td>
 </tr>
 <tr class="odd">
 <td align="left">2015 &amp; 2016</td>
@@ -1127,7 +1127,7 @@ I have been invited to give talks at five national and international universitie
 Lab visitors
 ------------
 
-Since I run my own lab I had several former collegues and new collaborators visiting for short periods to work in collaborative projects:
+I have had several former collegues and new collaborators visit my lab for short periods to work on collaborative projects:
 
 <table style="width:89%;">
 <colgroup>
