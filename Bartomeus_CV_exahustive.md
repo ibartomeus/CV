@@ -1,6 +1,6 @@
 
-Ignacio Bartomeus Roig
-======================
+Ignasi Bartomeus Roig
+=====================
 
 <table>
 <colgroup>
@@ -30,8 +30,8 @@ Ignacio Bartomeus Roig
 Short bio:
 ----------
 
-I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I focus on pollinators and their function: the pollination of 80% of the worldwide plant species. I obtained my PhD (*Suma Cum Laude*) in 2008 at the “Universidad Autónoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (*Oecologia* 2008, 155:761-770; 163 citations). In 2009 I did a short postdoctoral stage with Dr. Daniel Sol (CREAF-CSIC) exploring the role of life history traits in explaining biological invasions (*Science* 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree's lab (Rutgers University) with a postdoctoral fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (*PNAS* 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (*PNAS* 2011, 108: 20645–20649). On 2012 I took a postdoctoral position in the Swedish University of Agricultural Sciences with Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (*Science* 2013 339:1608-1611, *Nature Comm.* 2015 6:7414, *PNAS* 2016 113, 146-151). Since 2014 I have run my own lab, as a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I have published 35 scientific papers cited more than 2153 times (H-index = 22). I am on the board of the [Spanish Association of Terrestrial Ecology](http://www.aeet.org) (AEET) and the editorial board of [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). I am an advanced R user and I believe in the open sharing of data, code and ideas to stimulate science advance. Likewise, I find it important to be involved in science outreach in order to transfer my results and knowledge to society. I have created outreach material for different media and give public talks in schools and public spaces.
-&gt; All citation sources: Google-Scholar 2016-11-21
+I am a community ecologist interested in understanding how different drivers of global change are affecting biodiversity and ecosystem functioning. I focus on pollinators and their function: the pollination of 80% of the worldwide plant species. I obtained my PhD (*Suma Cum Laude*) in 2008 at the “Universidad Autónoma de Barcelona", advised by Dr. Montserrat Vilà. My PhD explored how biological plant invasions can modify the structure of plant-pollinator networks (*Oecologia* 2008, 155:761-770; 162 citations). In 2009 I did a short postdoctoral stage with Dr. Daniel Sol (CREAF-CSIC) exploring the role of life history traits on explaining biological invasions (*Science* 2012, 337:580-583). In 2010 I moved to Dr. Rachael Winfree lab (Rutgers University) with a postdoctoral fellowship funded by the Spanish Education Ministry. I investigated changes in native bee communities over time in North America (*PNAS* 2013, 110:4656-4660), and changes in bee phenology attributable to climate change (*PNAS* 2011, 108: 20645–20649). On 2012 I took a postdoctoral position in the Swedish University of Agricultural Sciences with Dr. Riccardo Bommarco to work on the LIBERATION EU FP7-project. I published several collaborative papers showcasing the importance of wild pollinators for crop production. These papers are having a strong impact on how we perceive agro-ecosystems and on EU policy (*Science* 2013 339:1608-1611, *Nature Comm.* 2015 6:7414, *PNAS* 2016 113, 146-151). Since 2014 I run my own lab as a "Ramón y Cajal" researcher at Estación Biológica de Doñana (EBD-CSIC), Spain. I published 36 scientific papers cited more than 2167 times (H-index = 22). I am on the board of the [Spanish Association of Terrestrial Ecology](http://www.aeet.org) (AEET) and in the editorial board of [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). I am an advanced R user and I believe in the open sharing of data, code and ideas to stimulate science advance. Likewise, I find important to be involved in science outreach in order to transfer my results to the society. I created outreach material for different media and gave public talks in schools and public spaces.
+&gt; All citation sources: Google-Scholar 2016-11-22
 
 Education
 ---------
@@ -134,7 +134,7 @@ Bartomeus lab members
 <tr class="odd">
 <td align="left">2013 - Present</td>
 <td align="left">PhD student</td>
-<td align="left">Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functional Biodiversity as a tool to enhance crop production.</td>
+<td align="left">Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functinal Biodiversity as a tool to enhance crop production.</td>
 </tr>
 <tr class="even">
 <td align="left">2016 - 2018</td>
@@ -162,7 +162,7 @@ Bartomeus lab members
 Publications
 ------------
 
-I have published 35 scientific papers, which have been cited more than 2153 times (H-index = 22). I am among the 10% most cited researchers in the last 5 years in the Ecology/Environment cathegory according to the *Essential Science Indicators* of the Web of Science.
+I published 36 scientific papers, which were cited more than 2167 times (H-index = 22). I am among the 10% most cited researchers in the last 5 years in the Ecology/Environment cathegory according to the Essential Science indicators of the Web of Science.
 
 <table>
 <colgroup>
@@ -183,244 +183,251 @@ I have published 35 scientific papers, which have been cited more than 2153 time
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">Revisiting the open-field test: what does it really tell us about animal personality?</td>
+<td align="left">D Perals, AS Griffin, I Bartomeus, D Sol</td>
+<td align="left">Animal Behaviour 123, 69-79</td>
+<td align="left">2017</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
 <td align="left">Non-bee insects are important contributors to global crop pollination</td>
 <td align="left">R Rader, I Bartomeus, LA Garibaldi, MPD Garratt, BG Howlett, R Winfree, ...</td>
 <td align="left">Proceedings of the National Academy of Sciences 113 (1), 146-151</td>
 <td align="left">2016</td>
 <td align="left">27</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">A common framework for identifying linkage rules across different types of interactions</td>
 <td align="left">I Bartomeus, D Gravel, JM Tylianakis, MA Aizen, IA Dickie, ...</td>
 <td align="left">Functional Ecology</td>
 <td align="left">2016</td>
 <td align="left">6</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">The Allometry of Bee Proboscis Length and Its Uses in Ecology</td>
 <td align="left">DP Cariveau, GK Nayak, I Bartomeus, J Zientek, JS Ascher, J Gibbs, ...</td>
 <td align="left">PloS one 11 (3), e0151482</td>
 <td align="left">2016</td>
 <td align="left">2</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Ciencia reproducible: qué, por qué, cómo</td>
 <td align="left">F Rodriguez-Sanchez, AJ Pérez-Luque, I Bartomeus, S Varela</td>
 <td align="left">Revista Ecosistemas 25 (2), 83-92</td>
 <td align="left">2016</td>
 <td align="left">0</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Linking species functional roles to their network roles</td>
 <td align="left">C Coux, R Rader, I Bartomeus, JM Tylianakis</td>
 <td align="left">Ecology letters 19 (7), 762-770</td>
 <td align="left">2016</td>
 <td align="left">0</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Delivery of crop pollination services is an insufficient argument for wild pollinator conservation</td>
 <td align="left">D Kleijn, R Winfree, I Bartomeus, LG Carvalheiro, M Henry, R Isaacs, ...</td>
 <td align="left">Nature communications 6</td>
 <td align="left">2015</td>
-<td align="left">69</td>
+<td align="left">71</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Functional identity and diversity of animals predict ecosystem functioning better than species-based indices</td>
 <td align="left">V Gagic, I Bartomeus, T Jonsson, A Taylor, C Winqvist, C Fischer, ...</td>
 <td align="left">Proceedings of the Royal Society of London B: Biological Sciences 282 (1801 ...</td>
 <td align="left">2015</td>
-<td align="left">55</td>
+<td align="left">56</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">EDITOR'S CHOICE: REVIEW: Trait matching of flower visitors and crops predicts fruit set better than trait diversity</td>
 <td align="left">LA Garibaldi, I Bartomeus, R Bommarco, AM Klein, SA Cunningham, ...</td>
 <td align="left">Journal of Applied Ecology 52 (6), 1436-1444</td>
 <td align="left">2015</td>
 <td align="left">8</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Pollinators, pests and soil properties interactively shape oilseed rape yield</td>
 <td align="left">I Bartomeus, V Gagic, R Bommarco</td>
 <td align="left">Basic and Applied Ecology 16 (8), 737-745</td>
 <td align="left">2015</td>
 <td align="left">4</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">The potential for indirect effects between co‐flowering plants via shared pollinators depends on resource abundance, accessibility and relatedness</td>
 <td align="left">LG Carvalheiro, JC Biesmeijer, G Benadi, J Fründ, M Stang, I Bartomeus, ...</td>
 <td align="left">Ecology letters 17 (11), 1389-1399</td>
 <td align="left">2014</td>
 <td align="left">30</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Consequences of plant invasions on compartmentalization and species’ roles in plant–pollinator networks</td>
 <td align="left">M Albrecht, B Padrón, I Bartomeus, A Traveset</td>
 <td align="left">Proceedings of the Royal Society of London B: Biological Sciences 281 (1788 ...</td>
 <td align="left">2014</td>
 <td align="left">28</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">The winners and losers of land use intensification: pollinator community disassembly is non‐random and alters functional diversity</td>
 <td align="left">R Rader, I Bartomeus, JM Tylianakis, E Laliberté</td>
 <td align="left">Diversity and Distributions 20 (8), 908-917</td>
 <td align="left">2014</td>
-<td align="left">25</td>
+<td align="left">26</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Contribution of insect pollinators to crop yield and quality varies with agricultural intensification</td>
 <td align="left">I Bartomeus, SG Potts, I Steffan-Dewenter, BE Vaissiere, ...</td>
 <td align="left">PeerJ 2, e328</td>
 <td align="left">2014</td>
-<td align="left">24</td>
+<td align="left">25</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Wild pollinators enhance fruit set of crops regardless of honey bee abundance</td>
 <td align="left">LA Garibaldi, I Steffan-Dewenter, R Winfree, MA Aizen, R Bommarco, ...</td>
 <td align="left">Science 339 (6127), 1608-1611</td>
 <td align="left">2013</td>
 <td align="left">537</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Historical changes in northeastern US bee pollinators related to shared ecological traits</td>
 <td align="left">I Bartomeus, JS Ascher, J Gibbs, BN Danforth, DL Wagner, SM Hedtke, ...</td>
 <td align="left">Proceedings of the National Academy of Sciences 110 (12), 4656-4660</td>
 <td align="left">2013</td>
-<td align="left">111</td>
+<td align="left">112</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Biodiversity ensures plant–pollinator phenological synchrony against climate change</td>
 <td align="left">I Bartomeus, MG Park, J Gibbs, BN Danforth, AN Lakso, R Winfree</td>
 <td align="left">Ecology letters 16 (11), 1331-1338</td>
 <td align="left">2013</td>
-<td align="left">61</td>
+<td align="left">63</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Native bees buffer the negative impact of climate warming on honey bee pollination of watermelon crops</td>
 <td align="left">R Rader, J Reilly, I Bartomeus, R Winfree</td>
 <td align="left">Global change biology 19 (10), 3103-3110</td>
 <td align="left">2013</td>
 <td align="left">49</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Understanding linkage rules in plant-pollinator networks by using hierarchical models that incorporate pollinator detectability and plant traits</td>
 <td align="left">I Bartomeus</td>
 <td align="left">PloS one 8 (7), e69200</td>
 <td align="left">2013</td>
 <td align="left">12</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Pollinator declines: reconciling scales and implications for ecosystem services</td>
 <td align="left">I Bartomeus, R Winfree</td>
 <td align="left">F1000 Research F1000Research 2</td>
 <td align="left">2013</td>
 <td align="left">6</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Unraveling the life history of successful invaders</td>
 <td align="left">D Sol, J Maspons, M Vall-Llosera, I Bartomeus, GE García-Peña, J Piñol, ...</td>
 <td align="left">Science 337 (6094), 580-583</td>
 <td align="left">2012</td>
 <td align="left">95</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">The paradox of invasion in birds: competitive superiority or ecological opportunism?</td>
 <td align="left">D Sol, I Bartomeus, AS Griffin</td>
 <td align="left">Oecologia 169 (2), 553-564</td>
 <td align="left">2012</td>
-<td align="left">42</td>
+<td align="left">43</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Deconstructing the native–exotic richness relationship in plants</td>
 <td align="left">I Bartomeus, D Sol, J Pino, P Vicente, X Font</td>
 <td align="left">Global Ecology and Biogeography 21 (5), 524-533</td>
 <td align="left">2012</td>
 <td align="left">22</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Consumer and motor innovation in the common myna: the role of motivation and emotional responses</td>
 <td align="left">D Sol, AS Griffin, I Bartomeus</td>
 <td align="left">Animal Behaviour 83 (1), 179-188</td>
 <td align="left">2012</td>
-<td align="left">21</td>
+<td align="left">22</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Honey bee colony winter losses and treatments against Varroa destructor in New Jersey, USA, 2010-11</td>
 <td align="left">A Novy, T Schuler, I Bartomeus, J Katz, M Robson</td>
 <td align="left">Science of Bee Culture 4 (1), 6-8</td>
 <td align="left">2012</td>
 <td align="left">0</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Climate-associated phenological advances in bee pollinators and bee-pollinated plants</td>
 <td align="left">I Bartomeus, JS Ascher, D Wagner, BN Danforth, S Colla, S Kornbluth, ...</td>
 <td align="left">Proceedings of the National Academy of Sciences 108 (51), 20645-20649</td>
 <td align="left">2011</td>
-<td align="left">149</td>
+<td align="left">151</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Native pollinators in anthropogenic habitats</td>
 <td align="left">R Winfree, I Bartomeus, DP Cariveau</td>
 <td align="left">Annual Review of Ecology, Evolution, and Systematics 42 (1), 1</td>
 <td align="left">2011</td>
-<td align="left">139</td>
+<td align="left">141</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Exploring or avoiding novel food resources? The novelty conflict in an invasive bird</td>
 <td align="left">D Sol, AS Griffin, I Bartomeus, H Boyce</td>
 <td align="left">PloS one 6 (5), e19535</td>
 <td align="left">2011</td>
-<td align="left">58</td>
+<td align="left">59</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">The Circe principle: are pollinators waylaid by attractive habitats?</td>
 <td align="left">I Bartomeus, R Winfree</td>
 <td align="left">Current Biology 21 (17), R652-R654</td>
 <td align="left">2011</td>
 <td align="left">7</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Combined effects of Impatiens glandulifera invasion and landscape structure on native plant pollination</td>
 <td align="left">I Bartomeus, M Vila, I Steffan‐Dewenter</td>
 <td align="left">Journal of Ecology 98 (2), 440-450</td>
 <td align="left">2010</td>
 <td align="left">66</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Vegetation response after removal of the invasive Carpobrotus hybrid complex in Andalucía, Spain</td>
 <td align="left">J Andreu, E Manzano-Piedras, I Bartomeus, ED Dana, M Vilà</td>
 <td align="left">Ecological Restoration 28 (4), 440-448</td>
 <td align="left">2010</td>
 <td align="left">14</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Invasive plant integration into native plant–pollinator networks across Europe</td>
 <td align="left">M Vilà, I Bartomeus, AC Dietzsch, T Petanidou, I Steffan-Dewenter, ...</td>
 <td align="left">Proceedings of the Royal Society of London B: Biological Sciences 276 (1674), 3887-3893</td>
 <td align="left">2009</td>
 <td align="left">100</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Breeding system and pollen limitation in two supergeneralist alien plants invading Mediterranean shrublands</td>
 <td align="left">I Bartomeus, M Vilà</td>
 <td align="left">Australian Journal of Botany 57 (2), 109-115</td>
 <td align="left">2009</td>
 <td align="left">17</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Contrasting effects of invasive plants in plant–pollinator networks</td>
 <td align="left">I Bartomeus, M Vilà, L Santamaría</td>
 <td align="left">Oecologia 155 (4), 761-770</td>
 <td align="left">2008</td>
-<td align="left">163</td>
+<td align="left">162</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">High invasive pollen transfer, yet low deposition on native stigmas in a Carpobrotus-invaded community</td>
 <td align="left">I Bartomeus, J Bosch, M Vilà</td>
 <td align="left">Annals of Botany 102 (3), 417-424</td>
 <td align="left">2008</td>
 <td align="left">53</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Demography of the invasive geophyte Oxalis pes-caprae across a Mediterranean island</td>
 <td align="left">M Vila, I Bartomeus, I Gimeno, A Traveset, E Moragues</td>
 <td align="left">Annals of Botany 97 (6), 1055-1062</td>
@@ -530,9 +537,9 @@ I have published 35 scientific papers, which have been cited more than 2153 time
 Research Grants
 ---------------
 
-Since 2013 I have received 390000 EUR in external support, including European, national and private funding.
+Since 2013 I got 390000 EUR in external support, including European, national and private funding.
 
-**Projects in which I am principal investigator (PI), or had a main role in writing and executing the project.**
+**Projects where I am principal investigator (PI) or where I had a main role in writting and executting the project.**
 
 <table>
 <colgroup>
@@ -583,7 +590,7 @@ Since 2013 I have received 390000 EUR in external support, including European, n
 </tbody>
 </table>
 
-**Projects in which I actively participated as a researcher**
+**Projects where I actively participated as researcher**
 
 <table>
 <colgroup>
@@ -720,7 +727,7 @@ Teaching
 Presentations in conferences
 ----------------------------
 
-I have participated in 17 national and international conferences as main presenter.
+I participated in 17 national and international conferences as main presenter.
 
 <table>
 <colgroup>
@@ -846,7 +853,7 @@ I have participated in 17 national and international conferences as main present
 Service, evaluator & consulting
 -------------------------------
 
-I am commited to contributing to the advancement of science by serving in national and international scientific organizations, by offering consulting and transference services to the private sector, and co-organizing national scientific meetings and workshops.
+I am commited to contribute to the advance of science by serving in national and international scientific organizations, by offering consulting and transference services to the private sector and co-organizing national scientific meetings and workshops.
 
 **Service**
 
@@ -864,7 +871,7 @@ I am commited to contributing to the advancement of science by serving in nation
 <tbody>
 <tr class="odd">
 <td align="left">2017</td>
-<td align="left">Organization committee of the AEET-MEDECOS meeting and responsible of the mentoring program. Sevilla.</td>
+<td align="left">Organization cometee of the AEET-MEDECOS meeting and responsible of the mentoring program. Sevilla.</td>
 </tr>
 <tr class="even">
 <td align="left">2017</td>
@@ -872,7 +879,7 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="odd">
 <td align="left">2016 – Present</td>
-<td align="left">Member of the committtee for re-organizing the long term monitoring program for Doñana Natural Park.</td>
+<td align="left">Member of the cometee for re-organizing the long term monitoring program for Doñana Natural Park.</td>
 </tr>
 <tr class="even">
 <td align="left">2016 - Present</td>
@@ -880,15 +887,15 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">Participation on the European Food Safety Authority (ESFA) expert committtee. <a href="http://efsa4bees.efsa.europa.eu/content/swarming-ideas" class="uri">http://efsa4bees.efsa.europa.eu/content/swarming-ideas</a></td>
+<td align="left">Participation on the European Food Safety Authority (ESFA) expert cometee. <a href="http://efsa4bees.efsa.europa.eu/content/swarming-ideas" class="uri">http://efsa4bees.efsa.europa.eu/content/swarming-ideas</a></td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Master Thesis committtee member for Universidad Pablo Olavide (UPO) master students 2015-2016</td>
+<td align="left">Master Thesis cometee member for Universidad Pablo Olavide (UPO) master students 2015-2016</td>
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">PhD Thesis committtee of Ana Torne. UAB</td>
+<td align="left">PhD Thesis cometee of Ana Torne. UAB</td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
@@ -908,7 +915,7 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="even">
 <td align="left">2015</td>
-<td align="left">PhD Thesis committtee of Molly McLeod. Rutgers Univerity, USA.</td>
+<td align="left">PhD Thesis cometee Molly Mc Leod. Rutgers Univerity, USA.</td>
 </tr>
 <tr class="odd">
 <td align="left">2014 - Present</td>
@@ -916,7 +923,7 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="even">
 <td align="left">2014</td>
-<td align="left">PhD Thesis committtee committtee Ana Montero-Castaño. UAM</td>
+<td align="left">PhD Thesis cometee Ana Montero-castaño. UAM</td>
 </tr>
 <tr class="odd">
 <td align="left">2014</td>
@@ -928,7 +935,7 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="odd">
 <td align="left">2008 - Present</td>
-<td align="left">Reviewer of more than 50 articles for the principal multidisciplinary and ecology journals, including Nature, Science, PNAS, Ecology Letters, .... Full verified list at <a href="https://publons.com/author/15494/ignasi-bartomeus#profile" class="uri">https://publons.com/author/15494/ignasi-bartomeus#profile</a></td>
+<td align="left">Reviewer of more than 50 articles for the principal multidisciplinary and ecology journals, including Nature, Science, PNAS, Ecology Letters, .... Full verifyed list at <a href="https://publons.com/author/15494/ignasi-bartomeus#profile" class="uri">https://publons.com/author/15494/ignasi-bartomeus#profile</a></td>
 </tr>
 </tbody>
 </table>
@@ -961,11 +968,11 @@ I am commited to contributing to the advancement of science by serving in nation
 </tr>
 <tr class="even">
 <td align="left">2015</td>
-<td align="left">Evaluator for “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
+<td align="left">Evaluator fpr “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
 </tr>
 <tr class="odd">
 <td align="left">2015</td>
-<td align="left">Panel member of the Noweigian Research Council (3 day panel for the program: MILJOFORSK)</td>
+<td align="left">Panel member of the Noweigian Research Council (3 day pannel for the program: MILJOFORSK)</td>
 </tr>
 <tr class="even">
 <td align="left">2014 &amp; 2016</td>
@@ -1006,7 +1013,7 @@ I am commited to contributing to the advancement of science by serving in nation
 Outreach
 --------
 
-I enjoy explaining science to society and increasing scientific based awareness about important topics like biodiversity decline.
+I enjoy explaining science to the society and contributing to increase scientific based awareness about important topics, like biodiversity decline.
 
 <table>
 <colgroup>
@@ -1016,11 +1023,11 @@ I enjoy explaining science to society and increasing scientific based awareness 
 <tbody>
 <tr class="odd">
 <td align="left">2016</td>
-<td align="left">Outreach video explaining what is happening to bees. Translated to English, Spanish, Catalan and Eskera and reaching more than 20.000 views in YouTube (<a href="https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ" class="uri">https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ</a>)</td>
+<td align="left">Outreach video explaining what happens to the bees. Translated to English, Spanish, Catalan and Eskera and reaching more than 20.000 visist in youtube (<a href="https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ" class="uri">https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ</a>)</td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Organizing committtee of &quot;pint of science 2017&quot; in Sevilla (<a href="https://pintofscience.es/" class="uri">https://pintofscience.es/</a>)</td>
+<td align="left">Organizing cometee of &quot;pint of science 2017&quot; in Sevilla (<a href="https://pintofscience.es/" class="uri">https://pintofscience.es/</a>)</td>
 </tr>
 <tr class="odd">
 <td align="left">2016</td>
@@ -1028,7 +1035,7 @@ I enjoy explaining science to society and increasing scientific based awareness 
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Sevilla Science Fair (5-7 mayo 2016). Workshop about bee nests.</td>
+<td align="left">Sevilla Science Fair (5-7 mayo 2016). Worshop about bee nests.</td>
 </tr>
 <tr class="odd">
 <td align="left">2015 &amp; 2016</td>
@@ -1127,7 +1134,7 @@ I have been invited to give talks at five national and international universitie
 Lab visitors
 ------------
 
-I have had several former collegues and new collaborators visit my lab for short periods to work on collaborative projects:
+Since I run my own lab I had several former collegues and new collaborators visiting for short periods to work in collaborative projects:
 
 <table style="width:89%;">
 <colgroup>
@@ -1212,6 +1219,6 @@ Other achievements and skills:
 -   Parent of two kids.
 
 > Ignasi Bartomeus
-> Sevilla, 2016-11-21
+> Sevilla, 2016-11-22
 
 An automatically updated version of the cv can be found at <https://github.com/ibartomeus/CV/blob/master/Bartomeus_CV_exahustive.md>

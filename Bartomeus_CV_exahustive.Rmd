@@ -29,7 +29,7 @@ pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FAL
 offset <- 10 #articles in Gscholar not peer review.
 ```
 
-Ignacio Bartomeus Roig
+Ignasi Bartomeus Roig
 ======================
 ```{r , echo = FALSE, results = "asis"}
 info <- data.frame(col1 = c("E-mail: nacho.bartomeus@gmail.com",
