@@ -1,0 +1,317 @@
+---
+output:
+  github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(pander)
+panderOptions('table.alignment.default',
+     function(df) ifelse(sapply(df, is.numeric), 'right', 'left'))
+```
+
+```{r data, echo=FALSE}
+exp_ment <- read.csv("data/experience_mentoring.csv", header = TRUE, sep = ";")
+grants <- read.csv("data/grants.csv", header = TRUE, sep = ";")
+teach <- read.csv("data/teaching.csv", header = TRUE)
+conf <- read.csv("data/conferences_talks.csv", header = TRUE, sep = ";")
+outreach <- read.csv("data/outreach.csv", header = TRUE, sep = ";")
+service <- read.csv("data/service_consulting.csv", header = TRUE, sep = ";")
+library(scholar)
+#get_num_distinct_journals("EXdyoWAAAAAJ")
+#get_num_top_journals("EXdyoWAAAAAJ")
+ib <- get_profile("EXdyoWAAAAAJ")
+pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FALSE)
+#str(pubs)
+#I may want to retrive ORCIR with rorcid if I update my profile there.
+#Publons API can be called too
+#Maybe even youtube for visit counts.
+offset <- 10 #articles in Gscholar not peer reviewed.
+```
+
+Ignasi Bartomeus Roig
+======================
+```{r , echo = FALSE, results = "asis"}
+info <- data.frame(col1 = c("E-mail: nacho.bartomeus@gmail.com",
+                            "Fecha de nacimiento: 09-April-1981",
+                            "Nacionalidad: Spanish",
+                            "Página web: [http://www.bartomeuslab.com](http://www.bartomeuslab.com)"),
+                   col2 = c("Google Scholar: [http://tinyurl.com/bartomeus](http://tinyurl.com/bartomeus)",
+                            "Altmetrics: [https://impactstory.org/u/0000-0001-7893-4389](https://impactstory.org/u/0000-0001-7893-4389)",
+                            "Código R in Github: [https://github.com/ibartomeus](https://github.com/ibartomeus)",
+                            "Twitter: [@ibartomeus](https://twitter.com/ibartomeus)"))
+colnames(info) <- NULL
+pander::pandoc.table(info, digits = c(50,50), split.table = Inf, split.cells = 100, justify = "left")
+```
+
+
+Resumen:
+----------
+
+Soy ecólogo de comunidades, y estoy interesado en entender cómo diferentes factores del cambio global afectan a la biodiversidad y al funcionamiento de los ecosistemas. Me centro en los polinizadores y en su función: la polinización del 80% de las especies de plantas en todo el mundo. Obtuve mi PhD (_Suma Cum Laude_) en 2008 en la Universidad Autónoma de Barcelona, dirigido por la Dra. Montserrat Vilà. Durante mi doctorado exploré cómo las invasiones de plantas pueden modificar la estructura de las redes de planta-polinizador (_Oecologia_ 2008, 155:761-770; `r sum(get_article_cite_history("EXdyoWAAAAAJ", "u5HHmVD_uO8C")$cites)` citas). En 2009 realicé una estancia postdoctoral con el Dr. Daniel Sol (CREAF-CSIC), investigando qué papel juegan las estrategias de vida para explicar las invasiones biológicas. En 2010 me uní al laboratorio de la Dra. Rachael Winfree (Rutgers University), con una beca postdoctoral del Ministerio de Educación. Me dediqué a investigar los cambios, a lo largo del tiempo, en las comunidades de abejas nativas de Norteamérica. En 2012 acepté un puesto de investigador postdoctroal en la Swedish University of Agricultural Sciences (SLU), con el Dr. Riccardo Bommarco, para trabajar en el proyecto LIBERATION EU FP7. He publicado varios artículos colaborativos que resaltan la importancia de los polinizadores silvestres para los cultivos. Estos artículos están teniendo un importante impacto en la percepción de los agro-ecosistemas y en las políticas europeas. Desde 2014 dirijo mi propio laboratorio como investigador Ramón y Cajal en la Estación Biológica de Doñana (EBD-CSIC), en España. He publicado `r get_num_articles("EXdyoWAAAAAJ")-offset` artículos científicos, que han sido citados `r ib$total_cites` veces (H-index = `r ib$h_index`). Soy parte de la junta directiva de la [Asociación Española de Ecología Terrestre](http://www.aeet.org)  (AETT), y de editor asociado de [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). Soy usuario avanzado de R y creo en el libre acceso de datos, código e ideas, para estimular el avance científico. Asimismo, considero crucial la implicación en divulgación científica, para transferir los resultados de mi investigación a la sociedad. He creado material de divulgación para diferentes medios de comunicación y he impartido charlas en colegios y diferentes eventos públicos.
+
+
+> Todas las citas usan como Fuente: Google-Scholar `r Sys.Date()`
+
+Formación
+---------
+
+* __PhD__ en Ecología (_Suma Cum Laude_), “Integration and impacts of invasive plants on plant-pollination networks”. UAB (Universidad Autónoma de Barcelona). Directora: M. Vilà. Mayo 2008
+
+* __MSc__ en Ecología: “The Outcome of Carpobrotus and Opuntia invasions on plant-pollinator Mediterranean networks”. UAB. Directora: M. Vilà. Abril 2006
+
+* __BS__ en Biología, especialidad en Biología Vegetal y Ecología. UAB. Junio 2004
+
+Experiencia científica
+----------------------
+
+```{r exp, echo = FALSE, results = "asis"}
+#colnames(exp_ment)
+exp <- subset(exp_ment, category == "experience", select = c("Period", "Position"))
+#colnames(exp) <- NULL
+pander::pandoc.table(exp, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Miembros de mi equipo
+---------------------
+```{r phd, echo = FALSE, results = "asis"}
+ment <- subset(exp_ment, category == "mentoring", select = c("Period", "position", "Position"))
+#can sort by date? need date in readable format :(
+colnames(ment) <- c("Period", "Position", "Person")
+rownames(ment) <- NULL
+pander::pandoc.table(ment, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Publicaciones
+------------
+
+He publicado `r get_num_articles("EXdyoWAAAAAJ")-offset` artículos científicos, que han sido citados más de `r ib$total_cites` times (H-index = `r ib$h_index`). Me encuentro entre el 10% de investigadores más citados en los últimos 5 años en la categoría Ecology/Environment, según los indicadores de Essential Science de Web of Science.
+
+```{r pubs, echo = FALSE, results = "asis"}
+#Notes:
+#peerJ top10: https://peerj.com/collections/28-agricultural-science-papers-nov-15/
+#Add papers in F1000!Gagic, Sol...
+#Make sure to highlight mentoring and role of some papers?
+#colnames(pubs) <- NULL
+pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FALSE)
+#str(pubs)
+#head(pubs)
+pubs <- pubs[,c(-7, - 8)]
+pubs <- pubs[order(pubs$year, decreasing = TRUE),]
+#unique(pubs$journal)
+pubs_preprints <- subset(pubs, journal %in% c("PeerJ Preprints", "bioRxiv")) 
+pubs_non_peerr <- subset(pubs, journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "Ecosistemas")) 
+pubs <- subset(pubs, !journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "PeerJ Preprints", "bioRxiv", "Ecosistemas"))
+levels(pubs$journal)[which(levels(pubs$journal) == "science")] <- "Science"
+levels(pubs$journal)[which(levels(pubs$journal) == "F")] <- "F1000 Research"
+levels(pubs$journal)[which(levels(pubs$journal) == "Proceedings of the Royal Society B: Biological Sciences")] <- "Proceedings of the Royal Society of London B: Biological Sciences"
+pubs$journal <- paste(pubs$journal, pubs$number)
+pubs <- pubs[,-4]
+pubs <- pubs[,c(1:3,5,4)]
+colnames(pubs) <- c("Title", "Authors", "Journal", "Year", "Citations")
+rownames(pubs) <- NULL
+pander::pandoc.table(pubs, split.table = Inf, split.cells = 100, justify = "left")
+#Add in review??
+#todo: highlight my name
+#Add peerJ and ROC, and Perals already published!
+```
+
+**Otras publicaciones y capítulos de libros:**
+
+```{r otherpubs, echo = FALSE, results = "asis"}
+pubs_non_peerr$journal <- paste(pubs_non_peerr$journal, pubs_non_peerr$number)
+pubs_non_peerr <- pubs_non_peerr[,-4]
+pubs_non_peerr <- pubs_non_peerr[,c(1:3,5)]
+colnames(pubs_non_peerr) <- c("Title", "Authors", "Published in", "Year")
+rownames(pubs_non_peerr) <- NULL
+pander::pandoc.table(pubs_non_peerr, split.table = Inf, split.cells = 100, justify = "left")
+#Add book chapter!
+```
+
+**Publicaciones en revisión o en preparación**
+
+```{r in_rev, echo = FALSE, results = "asis"}
+pubs_preprints$journal <- paste(pubs_preprints$journal, pubs_preprints$number)
+pubs_preprints <- pubs_preprints[,-4]
+pubs_preprints <- pubs_preprints[,c(1:2,3)]
+colnames(pubs_preprints) <- c("Title", "Authors", "Pre-print")
+rownames(pubs_preprints) <- NULL
+pander::pandoc.table(pubs_preprints, split.table = Inf, split.cells = 100, justify = "left")
+#remove peerJ/ROC
+#Add Magrach, Sol, Winsa, Magrach, Collado, Stavert  
+```
+
+Proyectos de Investigación
+--------------------------
+
+Desde 2013 he obtenido`r sum(grants$Amount, na.rm = TRUE)` EUR en soporte externo, incluyendo tanto financiación pública europea y nacional como privada
+
+**Proyectos en que soy el investigador principal (IP) o en que he tenido un papel principal en escribir y ejecutar el proyecto.**
+
+```{r grant, echo = FALSE, results = "asis"}
+#make column of funding body
+#need to collate number and total amount as PI?
+#colnames(grants)
+grant_IP <- subset(grants, category %in% c("PI", "Co-PI"),
+                   select = c("Period", "Title", "Amount", "Agency"))
+#can sort by date? need date in readable format :(
+rownames(grant_IP) <- NULL
+pander::pandoc.table(grant_IP, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+**Proyectos en que he participado activamente como investigador**
+
+```{r, echo = FALSE, results = "asis"}
+grant_ <- subset(grants, !category %in% c("PI", "Co-PI"),
+                   select = c("Period", "Title", "Agency"))
+#can sort by date? need date in readable format :(
+rownames(grant_) <- NULL
+pander::pandoc.table(grant_, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Docencia
+--------
+
+```{r teach, echo = FALSE, results = "asis"}
+#colnames(teach)
+teach <- subset(teach, category == "teaching", select = c("Period", "Place", "Title"))
+#colnames(teach) <- NULL
+rownames(teach) <- NULL
+pander::pandoc.table(teach, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Presentaciones en Congresos
+----------------------------
+
+```{r, echo = FALSE}
+#colnames(conf)
+conf_ <- subset(conf, category == "Presentations_in_congresses", select = c("Period", "Place", "Contribution", "Title"))
+```
+
+He participado en `r nrow(conf_)` conferencias de ámbito nacional o internacional como presentador principal.
+
+```{r conf, echo = FALSE, results = "asis"}
+conf_ <- conf_[order(conf_$Period, decreasing = TRUE),]
+#can sort by date? need date in readable format :(
+#colnames(conf_) <- NULL
+rownames(conf_) <- NULL
+pander::pandoc.table(conf_, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Servicio, evaluaciones y asesoramiento
+--------------------------------------
+
+Estoy comprometido con el avance de la ciencia prestando servicio a organizaciones nacionales e internacionales, así como asesoramiento y transferencia al sector privado.
+
+```{r eval, echo = FALSE, results = "asis"}
+#colnames(service)
+eval_ <- subset(service, select = c("Period", "category", "value"))
+#can sort by date? need date in readable format :(
+eval_ <- eval_[order(eval_$Period, decreasing = TRUE),]
+ser <- subset(eval_, category == "other")
+eval <- subset(eval_, category == "evaluator")
+cons <- subset(eval_, category == "consulting")
+```
+
+**Servicio**
+
+```{r, echo = FALSE, results= "asis"}
+colnames(ser)[3] <- "Service"
+rownames(ser) <- NULL
+pander::pandoc.table(ser[,-2], split.table = Inf, split.cells = 100, justify = "left")
+```
+
+**Evaluador**
+
+```{r, echo = FALSE, results= "asis"}
+colnames(eval)[3] <- "Organism"
+rownames(eval) <- NULL
+pander::pandoc.table(eval[,-2], split.table = Inf, split.cells = 100, justify = "left")
+```
+
+**Asesoramiento**
+
+```{r, echo = FALSE, results= "asis"}
+colnames(cons)[3] <- "Consulting"
+rownames(cons) <- NULL
+pander::pandoc.table(cons[,-2], split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Divulgación científica
+----------------------
+
+Me gusta explicar mis resultados científicos a la sociedad y contribuir a incrementar el pensamiento crítico de los ciudadanos sobre temas tan relevantes como el cambio global y el declive de la biodiversidad.
+
+```{r out, echo = FALSE, results = "asis"}
+#colnames(outreach)
+out <- subset(outreach, category == "outreach", select = c("Period", "Activity"))
+#can sort by date? need date in readable format :(
+out <- out[order(out$Period, decreasing = TRUE),]
+colnames(out) <- NULL
+rownames(out) <- NULL
+pander::pandoc.table(out, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Seminarios invitados
+--------------------
+
+He sido invitado a 5 universidades nacionales e internacionales para impartir seminarios.
+
+```{r talks, echo = FALSE, results = "asis"}
+#colnames(conf)
+talks <- subset(conf, category == "invited_talks", select = c("Period", "Place", "Title"))
+#can sort by date? need date in readable format :(
+colnames(talks) <- c("Period", "Country", "Place")
+rownames(talks) <- NULL
+pander::pandoc.table(talks, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Recepción de investigadores visitantes
+------------------------------------
+
+Desde que dirijo mi propio laboratorio he recibido diversas visitas de colaboradores  para trabajar en proyectos comunes.
+
+```{r vis, echo = FALSE, results = "asis"}
+#colnames(exp_ment)
+vis <- subset(exp_ment, category == "visits", select = c("Period", "Position"))
+#can sort by date? need date in readable format :(
+colnames(vis) <- c("Period", "Visitor")
+rownames(vis) <- NULL
+pander::pandoc.table(vis, split.table = Inf, split.cells = 100, justify = "left")
+```
+
+Idiomas:
+----------------
+
+* diomas nativos: español y catalán.   
+*	Inglés: nivel alto leído, hablado y escrito.  
+*	Francés: lectura correcta y nivel básico hablado y escrito.  
+ 
+ 
+Programación e informática:
+---------------------------
+
+* Nivel avanzado de informática (Macintosh & Windows). Uso experto de paquetes ofimáticos (e.g. Libre Office, Microsoft Office).
+
+* Usuario avanzado del lenguaje de programación R y sus paquetes estadísticos. Usuario de Git [(https://github.com/ibartomeus)](https://github.com/ibartomeus). He contribuido a paquetes de R como `originr` [(http://cran.r-project.org/web/packages/originr/)](http://cran.r-project.org/web/packages/originr/) y `romdb`. Fundador del grupo de usuarios de R de Sevilla.
+
+* Experiencia en modelización (i.e. MaxEnt) y creación de simulaciones en R.   
+
+* Conocimiento de html y manejo de bases de datos (MySQL & PHP).
+
+* Conocimiento básico de SIG (GRASS, Q-GIS).
+
+Otros méritos y habilidades:
+------------------------------
+
+* “Adjunt researcher”. University of New England, Australia.  
+* Voluntario en iwith.org  
+* Presidente del grupo excursionista CampBase (2002-2005) y práctica regular de “trail running”, carreras de orientación y alpinismo.  
+* Jugador de ajedrez  
+* Carnet de conducir B2  
+* Padre de dos hijos  
+
+> Ignasi Bartomeus  
+> Sevilla, `r Sys.Date()`
+
+Una versión actualizada automáticamente del cv se puede encontrar en [https://github.com/ibartomeus/CV/blob/master/Bartomeus_CV_esp.md](https://github.com/ibartomeus/CV/blob/master/Bartomeus_CV_esp.md)
