@@ -33,8 +33,8 @@ Ignasi Bartomeus Roig
 ======================
 ```{r , echo = FALSE, results = "asis"}
 info <- data.frame(col1 = c("E-mail: nacho.bartomeus@gmail.com",
-                            "Fecha de nacimiento: 09-April-1981",
-                            "Nacionalidad: Spanish",
+                            "Fecha de nacimiento: 09-Abril-1981",
+                            "Nacionalidad: Española",
                             "Página web: [http://www.bartomeuslab.com](http://www.bartomeuslab.com)"),
                    col2 = c("Google Scholar: [http://tinyurl.com/bartomeus](http://tinyurl.com/bartomeus)",
                             "Altmetrics: [https://impactstory.org/u/0000-0001-7893-4389](https://impactstory.org/u/0000-0001-7893-4389)",
@@ -68,7 +68,7 @@ Experiencia científica
 ```{r exp, echo = FALSE, results = "asis"}
 #colnames(exp_ment)
 exp <- subset(exp_ment, category == "experience", select = c("Period", "Position"))
-#colnames(exp) <- NULL
+colnames(exp) <- c("Periodo", "Posición")
 pander::pandoc.table(exp, split.table = Inf, split.cells = 100, justify = "left")
 ```
 
@@ -144,7 +144,7 @@ pander::pandoc.table(pubs_preprints, split.table = Inf, split.cells = 100, justi
 Proyectos de Investigación
 --------------------------
 
-Desde 2013 he obtenido`r sum(grants$Amount, na.rm = TRUE)` EUR en soporte externo, incluyendo tanto financiación pública europea y nacional como privada
+Desde 2013 he obtenido `r sum(grants$Amount, na.rm = TRUE)` EUR en soporte externo, incluyendo tanto financiación pública europea y nacional como privada
 
 **Proyectos en que soy el investigador principal (IP) o en que he tenido un papel principal en escribir y ejecutar el proyecto.**
 
