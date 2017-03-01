@@ -244,23 +244,9 @@ I published 39 scientific papers, which were cited more than 2466 times (H-index
 <td align="left">0</td>
 </tr>
 <tr class="odd">
-<td align="left">Invasive plants as novel food resources, the pollinators’ perspective</td>
-<td align="left">I Bartomeus, J Fründ, NM Williams</td>
-<td align="left">Biological Invasions and Animal Behaviour 119</td>
-<td align="left">2016</td>
-<td align="left">0</td>
-</tr>
-<tr class="even">
 <td align="left">Ciencia reproducible: qué, por qué, cómo</td>
 <td align="left">F Rodriguez-Sanchez, AJ Pérez-Luque, I Bartomeus, S Varela</td>
 <td align="left">Revista Ecosistemas 25 (2), 83-92</td>
-<td align="left">2016</td>
-<td align="left">0</td>
-</tr>
-<tr class="odd">
-<td align="left">Micro-CT as a tool straddling scientist research, art and education. Study of Osmia sp., a mason bee (Insecta, Hymenoptera: Megachilidae)</td>
-<td align="left">J Alba-Tercedor, I Bartomeus</td>
-<td align="left">Bruker Micro-CT Users Meeting 74-91</td>
 <td align="left">2016</td>
 <td align="left">0</td>
 </tr>
@@ -479,11 +465,11 @@ I published 39 scientific papers, which were cited more than 2466 times (H-index
 
 **Other publications:**
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col width="38%" />
+<col width="39%" />
 <col width="31%" />
-<col width="27%" />
+<col width="26%" />
 <col width="2%" />
 </colgroup>
 <thead>
@@ -502,9 +488,21 @@ I published 39 scientific papers, which were cited more than 2466 times (H-index
 <td align="left">2016</td>
 </tr>
 <tr class="even">
+<td align="left">Invasive plants as novel food resources, the pollinators’ perspective</td>
+<td align="left">I Bartomeus, J Fründ, NM Williams</td>
+<td align="left">Biological Invasions and Animal Behaviour 119</td>
+<td align="left">2016</td>
+</tr>
+<tr class="odd">
 <td align="left">Ecoinformática: nuevo grupo de trabajo de la Asociación Española de Ecología Terrestre</td>
 <td align="left">F Rodríguez-Sánchez, AJ Pérez-Luque, I Bartomeus, S Varela</td>
 <td align="left">Ecosistemas 25 (2), 115</td>
+<td align="left">2016</td>
+</tr>
+<tr class="even">
+<td align="left">Micro-CT as a tool straddling scientist research, art and education. Study of Osmia sp., a mason bee (Insecta, Hymenoptera: Megachilidae)</td>
+<td align="left">J Alba-Tercedor, I Bartomeus</td>
+<td align="left">Bruker Micro-CT Users Meeting 74-91</td>
 <td align="left">2016</td>
 </tr>
 <tr class="odd">

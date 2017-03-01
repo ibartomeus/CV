@@ -98,8 +98,8 @@ pubs <- pubs[,c(-7, - 8)]
 pubs <- pubs[order(pubs$year, decreasing = TRUE),]
 #unique(pubs$journal)
 pubs_preprints <- subset(pubs, journal %in% c("PeerJ Preprints", "bioRxiv")) 
-pubs_non_peerr <- subset(pubs, journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "Ecosistemas")) 
-pubs <- subset(pubs, !journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "PeerJ Preprints", "bioRxiv", "Ecosistemas"))
+pubs_non_peerr <- subset(pubs, journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "Ecosistemas", "Biological Invasions and Animal Behaviour", "Bruker Micro-CT Users Meeting")) 
+pubs <- subset(pubs, !journal %in% c("", "Quercus", "Invasiones Biológicas, Madrid, CSIC, MCI, Gobierno de España", "Pensoft Publishers", "USDA Technical Bulletin", "PeerJ Preprints", "bioRxiv", "Ecosistemas", "Biological Invasions and Animal Behaviour", "Bruker Micro-CT Users Meeting"))
 levels(pubs$journal)[which(levels(pubs$journal) == "science")] <- "Science"
 levels(pubs$journal)[which(levels(pubs$journal) == "F")] <- "F1000 Research"
 levels(pubs$journal)[which(levels(pubs$journal) == "Proceedings of the Royal Society B: Biological Sciences")] <- "Proceedings of the Royal Society of London B: Biological Sciences"
