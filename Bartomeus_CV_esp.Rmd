@@ -260,6 +260,7 @@ He sido invitado a 5 universidades nacionales e internacionales para impartir se
 ```{r talks, echo = FALSE, results = "asis"}
 #colnames(conf)
 talks <- subset(conf, category == "invited_talks", select = c("Period", "Place", "Title"))
+talks <- talks[order(talks$Period, decreasing = TRUE),]
 #can sort by date? need date in readable format :(
 colnames(talks) <- c("Period", "Country", "Place")
 rownames(talks) <- NULL
@@ -274,6 +275,7 @@ Desde que dirijo mi propio laboratorio he recibido diversas visitas de colaborad
 ```{r vis, echo = FALSE, results = "asis"}
 #colnames(exp_ment)
 vis <- subset(exp_ment, category == "visits", select = c("Period", "Position"))
+vis <- vis[order(vis$Period, decreasing = TRUE),]
 #can sort by date? need date in readable format :(
 colnames(vis) <- c("Period", "Visitor")
 rownames(vis) <- NULL

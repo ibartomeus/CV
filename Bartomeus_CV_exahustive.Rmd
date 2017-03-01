@@ -26,7 +26,7 @@ pubs <- get_publications("EXdyoWAAAAAJ", cstart = 0, pagesize = 100, flush = FAL
 #I may want to retrive ORCIR with rorcid if I update my profile there.
 #Publons API can be called too
 #Maybe even youtube for visit counts.
-offset <- 10 #articles in Gscholar not peer review.
+offset <- 9 #articles in Gscholar not peer review.
 ```
 
 Ignasi Bartomeus Roig
@@ -257,6 +257,7 @@ I have been invited to give talks at five national and international universitie
 #colnames(conf)
 talks <- subset(conf, category == "invited_talks", select = c("Period", "Place", "Title"))
 #can sort by date? need date in readable format :(
+talks <- talks[order(talks$Period, decreasing = TRUE),]
 colnames(talks) <- c("Period", "Country", "Place")
 rownames(talks) <- NULL
 pander::pandoc.table(talks, split.table = Inf, split.cells = 100, justify = "left")
@@ -270,6 +271,7 @@ Since I run my own lab I had several former collegues and new collaborators visi
 ```{r vis, echo = FALSE, results = "asis"}
 #colnames(exp_ment)
 vis <- subset(exp_ment, category == "visits", select = c("Period", "Position"))
+vis <- vis[order(vis$Period, decreasing = TRUE),]
 #can sort by date? need date in readable format :(
 colnames(vis) <- c("Period", "Visitor")
 rownames(vis) <- NULL
