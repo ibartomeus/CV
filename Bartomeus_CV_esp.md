@@ -30,9 +30,9 @@ Ignasi Bartomeus Roig
 Resumen:
 --------
 
-Soy ecólogo de comunidades, y estoy interesado en entender cómo diferentes factores del cambio global afectan a la biodiversidad y al funcionamiento de los ecosistemas. Me centro en los polinizadores y en su función: la polinización del 80% de las especies de plantas en todo el mundo. Obtuve mi PhD (*Suma Cum Laude*) en 2008 en la Universidad Autónoma de Barcelona, dirigido por la Dra. Montserrat Vilà. Durante mi doctorado exploré cómo las invasiones de plantas pueden modificar la estructura de las redes de planta-polinizador (*Oecologia* 2008, 155:761-770; 169 citas). En 2009 realicé una estancia postdoctoral con el Dr. Daniel Sol (CREAF-CSIC), investigando qué papel juegan las estrategias de vida para explicar las invasiones biológicas. En 2010 me uní al laboratorio de la Dra. Rachael Winfree (Rutgers University), con una beca postdoctoral del Ministerio de Educación. Me dediqué a investigar los cambios, a lo largo del tiempo, en las comunidades de abejas nativas de Norteamérica. En 2012 acepté un puesto de investigador postdoctroal en la Swedish University of Agricultural Sciences (SLU), con el Dr. Riccardo Bommarco, para trabajar en el proyecto LIBERATION EU FP7. He publicado varios artículos colaborativos que resaltan la importancia de los polinizadores silvestres para los cultivos. Estos artículos están teniendo un importante impacto en la percepción de los agro-ecosistemas y en las políticas europeas. Desde 2014 dirijo mi propio laboratorio como investigador Ramón y Cajal en la Estación Biológica de Doñana (EBD-CSIC), en España. He publicado 38 artículos científicos, que han sido citados 2466 veces (H-index = 24). Soy parte de la junta directiva de la [Asociación Española de Ecología Terrestre](http://www.aeet.org) (AETT), y de editor asociado de [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). Soy usuario avanzado de R y creo en el libre acceso de datos, código e ideas, para estimular el avance científico. Asimismo, considero crucial la implicación en divulgación científica, para transferir los resultados de mi investigación a la sociedad. He creado material de divulgación para diferentes medios de comunicación y he impartido charlas en colegios y diferentes eventos públicos.
+Soy ecólogo de comunidades, y estoy interesado en entender cómo diferentes factores del cambio global afectan a la biodiversidad y al funcionamiento de los ecosistemas. Me centro en los polinizadores y en su función: la polinización del 80% de las especies de plantas en todo el mundo. Obtuve mi PhD (*Suma Cum Laude*) en 2008 en la Universidad Autónoma de Barcelona, dirigido por la Dra. Montserrat Vilà. Durante mi doctorado exploré cómo las invasiones de plantas pueden modificar la estructura de las redes de planta-polinizador (*Oecologia* 2008, 155:761-770; 169 citas). En 2009 realicé una estancia postdoctoral con el Dr. Daniel Sol (CREAF-CSIC), investigando qué papel juegan las estrategias de vida para explicar las invasiones biológicas. En 2010 me uní al laboratorio de la Dra. Rachael Winfree (Rutgers University), con una beca postdoctoral del Ministerio de Educación. Me dediqué a investigar los cambios, a lo largo del tiempo, en las comunidades de abejas nativas de Norteamérica. En 2012 acepté un puesto de investigador postdoctroal en la Swedish University of Agricultural Sciences (SLU), con el Dr. Riccardo Bommarco, para trabajar en el proyecto LIBERATION EU FP7. He publicado varios artículos colaborativos que resaltan la importancia de los polinizadores silvestres para los cultivos. Estos artículos están teniendo un importante impacto en la percepción de los agro-ecosistemas y en las políticas europeas. Desde 2014 dirijo mi propio laboratorio como investigador Ramón y Cajal en la Estación Biológica de Doñana (EBD-CSIC), en España. He publicado 38 artículos científicos, que han sido citados 2472 veces (H-index = 24). Soy parte de la junta directiva de la [Asociación Española de Ecología Terrestre](http://www.aeet.org) (AETT), y de editor asociado de [Journal of Ecology](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745). Soy usuario avanzado de R y creo en el libre acceso de datos, código e ideas, para estimular el avance científico. Asimismo, considero crucial la implicación en divulgación científica, para transferir los resultados de mi investigación a la sociedad. He creado material de divulgación para diferentes medios de comunicación y he impartido charlas en colegios y diferentes eventos públicos.
 
-> Todas las citas usan como Fuente: Google-Scholar 2017-03-01
+> Todas las citas usan como Fuente: Google-Scholar 2017-03-02
 
 Formación
 ---------
@@ -110,7 +110,7 @@ Miembros de mi equipo
 
 <table>
 <colgroup>
-<col width="11%" />
+<col width="10%" />
 <col width="17%" />
 <col width="71%" />
 </colgroup>
@@ -133,26 +133,31 @@ Miembros de mi equipo
 <td align="left">Miguel Ángel Collado: Brain structures of bee species and its relation to behaviour (FPI: SURVIVE HIREC project).</td>
 </tr>
 <tr class="odd">
-<td align="left">2013 - Present</td>
+<td align="left">2014 - Present</td>
 <td align="left">PhD student</td>
 <td align="left">Jamie Stavert (Co-supervisor with Jaquelline Beggs) : Functinal Biodiversity as a tool to enhance crop production.</td>
 </tr>
 <tr class="even">
+<td align="left">2017 - Present</td>
+<td align="left">PhD student</td>
+<td align="left">José Barragán (Co-supervisor with Romina Rader) : Using novel technologies to link land use change and its impact upon agriculture.</td>
+</tr>
+<tr class="odd">
 <td align="left">2016 - 2018</td>
 <td align="left">Postdoctoral researcher</td>
 <td align="left">Cristina Botías: bee-pathogen networks (Juan de la Cierva).</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2015 - 2016</td>
 <td align="left">Postdoctoral researcher</td>
 <td align="left">Ainhoa Magrach: plant-pollinator networks in agroecosystems (ECODEAL project).</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2015 - Present</td>
 <td align="left">Technician</td>
 <td align="left">Curro Molina: Lab manager</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2015 - 2016</td>
 <td align="left">Master student</td>
 <td align="left">José Barragán: competition and mutualism as drivers of plant coexistence.</td>
@@ -163,7 +168,7 @@ Miembros de mi equipo
 Publicaciones
 -------------
 
-He publicado 38 artículos científicos, que han sido citados más de 2466 times (H-index = 24). Me encuentro entre el 10% de investigadores más citados en los últimos 5 años en la categoría Ecology/Environment, según los indicadores de Essential Science de Web of Science.
+He publicado 38 artículos científicos, que han sido citados más de 2472 times (H-index = 24). Me encuentro entre el 10% de investigadores más citados en los últimos 5 años en la categoría Ecology/Environment, según los indicadores de Essential Science de Web of Science.
 
 <table>
 <colgroup>
@@ -265,7 +270,7 @@ He publicado 38 artículos científicos, que han sido citados más de 2466 times
 <td align="left">D Kleijn, R Winfree, I Bartomeus, LG Carvalheiro, M Henry, R Isaacs, ...</td>
 <td align="left">Nature communications 6</td>
 <td align="left">2015</td>
-<td align="left">101</td>
+<td align="left">103</td>
 </tr>
 <tr class="odd">
 <td align="left">Functional identity and diversity of animals predict ecosystem functioning better than species-based indices</td>
@@ -321,7 +326,7 @@ He publicado 38 artículos científicos, que han sido citados más de 2466 times
 <td align="left">LA Garibaldi, I Steffan-Dewenter, R Winfree, MA Aizen, R Bommarco, ...</td>
 <td align="left">Science 339 (6127), 1608-1611</td>
 <td align="left">2013</td>
-<td align="left">620</td>
+<td align="left">621</td>
 </tr>
 <tr class="odd">
 <td align="left">Historical changes in northeastern US bee pollinators related to shared ecological traits</td>
@@ -405,14 +410,14 @@ He publicado 38 artículos científicos, que han sido citados más de 2466 times
 <td align="left">R Winfree, I Bartomeus, DP Cariveau</td>
 <td align="left">Annual Review of Ecology, Evolution, and Systematics 42 (1), 1</td>
 <td align="left">2011</td>
-<td align="left">157</td>
+<td align="left">158</td>
 </tr>
 <tr class="odd">
 <td align="left">Exploring or avoiding novel food resources? The novelty conflict in an invasive bird</td>
 <td align="left">D Sol, AS Griffin, I Bartomeus, H Boyce</td>
 <td align="left">PloS one 6 (5), e19535</td>
 <td align="left">2011</td>
-<td align="left">64</td>
+<td align="left">66</td>
 </tr>
 <tr class="even">
 <td align="left">The Circe principle: are pollinators waylaid by attractive habitats?</td>
@@ -557,7 +562,7 @@ He publicado 38 artículos científicos, que han sido citados más de 2466 times
 Proyectos de Investigación
 --------------------------
 
-Desde 2013 he obtenido390000 EUR en soporte externo, incluyendo tanto financiación pública europea y nacional como privada
+Desde 2013 he obtenido 390000 EUR en soporte externo, incluyendo tanto financiación pública europea y nacional como privada
 
 **Proyectos en que soy el investigador principal (IP) o en que he tenido un papel principal en escribir y ejecutar el proyecto.**
 
@@ -615,7 +620,7 @@ Desde 2013 he obtenido390000 EUR en soporte externo, incluyendo tanto financiaci
 <table>
 <colgroup>
 <col width="9%" />
-<col width="76%" />
+<col width="77%" />
 <col width="13%" />
 </colgroup>
 <thead>
@@ -627,41 +632,46 @@ Desde 2013 he obtenido390000 EUR en soporte externo, incluyendo tanto financiaci
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">2016 - 2020</td>
+<td align="left">Servicios ecosistémicos de polinización y dispersión en áreas naturales protegidas (P416RT0194). PI: Mauricio Quesada (collaborating 10 countries and )</td>
+<td align="left">CYTED</td>
+</tr>
+<tr class="even">
 <td align="left">2015 - 2018</td>
 <td align="left">Enhancing biodiversity-based ecosystem services to crops through optimized densities of green infrastructure in agricultural landscapes (BiodivERsA-FACCE2014-68: ECODEAL). PI: Yann Clought (collaborating 5 EU countries and 20 researchers)</td>
 <td align="left">Biodiversa</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2013 - 2016</td>
 <td align="left">LIBERATION: LInking farmland Biodiversity to Ecosystem seRvices for effective ecofunctional intensificATION (Biodiversa) PI: David Klein</td>
 <td align="left">Biodiversa</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2012 - 2014</td>
 <td align="left">Flexibilidad del comportamiento y adaptación a cambios ambientales (FLEXIADAPT) Plan Nacional, PI: D. Sol</td>
 <td align="left">MINECO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2012 - 2012</td>
 <td align="left">How many species are required for ecosystem services? Faculty research grant program. Rutgers University. PI: R. Winfree</td>
 <td align="left">Rutgers University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2012 - 2014</td>
 <td align="left">SAPES Multifunctional Agriculture: Harnessing Biodiversity for Sustaining Agricultural Production and Ecosystem Services PI: Henrick Smith</td>
 <td align="left">FORMAS</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2010 - 2010</td>
 <td align="left">Assessing pollinator changes using a 140 years data set. Pre tenure faculty award. PI: Rachael Winfree</td>
 <td align="left">Rutgers University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2005 - 2007</td>
 <td align="left">INVASRED: Efecto de las especies invasoras en las redes de polinización. PI: Montse Vilà</td>
 <td align="left">MINECO</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2004 - 2008</td>
 <td align="left">ALARM: Assessing LArge-scale environmental Risks with tested Methods (GOCE-CT-2003-506675). PI: Josef Settele</td>
 <td align="left">EU FP-6</td>
@@ -879,8 +889,8 @@ Estoy comprometido con el avance de la ciencia prestando servicio a organizacion
 
 <table>
 <colgroup>
-<col width="12%" />
-<col width="87%" />
+<col width="9%" />
+<col width="90%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -890,70 +900,74 @@ Estoy comprometido con el avance de la ciencia prestando servicio a organizacion
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">2017</td>
-<td align="left">Organization cometee of the AEET-MEDECOS meeting and responsible of the mentoring program. Sevilla.</td>
+<td align="left">2017 - Present</td>
+<td align="left">Editor of the Ecosistemas section notas ecoinformáticas <a href="https://github.com/ecoinfAEET/Notas_Ecosistemas">(https://github.com/ecoinfAEET/Notas_Ecosistemas)</a></td>
 </tr>
 <tr class="even">
+<td align="left">2017</td>
+<td align="left">Organizing cometee of the AEET-MEDECOS meeting and responsible of the mentoring program and the workshops. Sevilla. <a href="http://www.medecos-aeet-meeting2017.es/Organizing_Committee_315_p.htm">(http://www.medecos-aeet-meeting2017.es/Organizing_Committee_315_p.htm)</a></td>
+</tr>
+<tr class="odd">
 <td align="left">2017</td>
 <td align="left">Organizer of ECOFLOR meeting, Sevilla.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2016 – Present</td>
 <td align="left">Member of the cometee for re-organizing the long term monitoring program for Doñana Natural Park.</td>
 </tr>
-<tr class="even">
-<td align="left">2016 - Present</td>
-<td align="left">Founder and organizer of the EcoInformatics working group at AEET</td>
-</tr>
 <tr class="odd">
+<td align="left">2016 - Present</td>
+<td align="left">Founder and organizer of the EcoInformatics working group at AEET <a href="https://sevillarusers.wordpress.com/">(https://sevillarusers.wordpress.com/)</a></td>
+</tr>
+<tr class="even">
 <td align="left">2016</td>
 <td align="left">Participation on the European Food Safety Authority (ESFA) expert cometee. <a href="http://efsa4bees.efsa.europa.eu/content/swarming-ideas" class="uri">http://efsa4bees.efsa.europa.eu/content/swarming-ideas</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2016</td>
 <td align="left">Master Thesis cometee member for Universidad Pablo Olavide (UPO) master students 2015-2016</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2016</td>
 <td align="left">PhD Thesis cometee of Ana Torne. UAB</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2016</td>
 <td align="left">Reviewer of the tenure promotion dossiers of Dr. Laura Burkle. University of Montana.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2016</td>
 <td align="left">Guest editor of the special issue on pollinators for the journal Ecosystemas</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2015 - Present</td>
 <td align="left">Member of the Spanish asociation of terrestrial Ecology (AEET) board</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2015 - Present</td>
 <td align="left">Asociate Editor of Journal of Ecology <a href="http://www.journalofecology.org/view/0/editorialBoard.html">(http://www.journalofecology.org/)</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2015</td>
 <td align="left">PhD Thesis cometee Molly Mc Leod. Rutgers Univerity, USA.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2014 - Present</td>
 <td align="left">Founder and organizer of the Sevilla R users meeting group.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2014</td>
 <td align="left">PhD Thesis cometee Ana Montero-castaño. UAM</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2014</td>
 <td align="left">Expert Reviewer for Thematic Assessment on Pollinators of the The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2011 - 2014</td>
 <td align="left">Asociate Faculty Member of F1000: <a href="http://f1000.com/thefaculty/member/1660572845254917">(http://f1000.com/thefaculty/member/1660572845254917)</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2008 - Present</td>
 <td align="left">Reviewer of more than 50 articles for the principal multidisciplinary and ecology journals, including Nature, Science, PNAS, Ecology Letters, .... Full verifyed list at <a href="https://publons.com/author/15494/ignasi-bartomeus#profile" class="uri">https://publons.com/author/15494/ignasi-bartomeus#profile</a></td>
 </tr>
@@ -988,7 +1002,7 @@ Estoy comprometido con el avance de la ciencia prestando servicio a organizacion
 </tr>
 <tr class="even">
 <td align="left">2015</td>
-<td align="left">Evaluator fpr “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
+<td align="left">Evaluator for “Agencia Nacional de Evaluación y Prospectiva (ANEP) plan nacional” program</td>
 </tr>
 <tr class="odd">
 <td align="left">2015</td>
@@ -1024,6 +1038,10 @@ Estoy comprometido con el avance de la ciencia prestando servicio a organizacion
 <td align="left">Consulting on pollination best practices for Entomotech (4 hours)</td>
 </tr>
 <tr class="even">
+<td align="left">2016</td>
+<td align="left">Co-development of a bumblebee counter with beekeepingsensors.com <a href="https://tinyurl.com/huzyotx">(https://tinyurl.com/huzyotx)</a></td>
+</tr>
+<tr class="odd">
 <td align="left">2015</td>
 <td align="left">Consulting on pollination best practices for Atlantic Blue, Huelva. (8 h.)</td>
 </tr>
@@ -1037,68 +1055,76 @@ Me gusta explicar mis resultados científicos a la sociedad y contribuir a incre
 
 <table>
 <colgroup>
-<col width="12%" />
-<col width="88%" />
+<col width="9%" />
+<col width="90%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td align="left">2016</td>
+<td>2017 - Present</td>
+<td align="left">Colaborating with Fundación DesQbre <a href="https://guiaexperta.fundaciondescubre.es/2016/12/20/ignasi-bartomeus/">(https://guiaexperta.fundaciondescubre.es/2016/12/20/ignasi-bartomeus/)</a></td>
+</tr>
+<tr class="even">
+<td>2016</td>
 <td align="left">Outreach video explaining what happens to the bees. Translated to English, Spanish, Catalan and Eskera and reaching more than 20.000 visist in youtube (<a href="https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ" class="uri">https://www.youtube.com/channel/UCDz0LPg5rXs2NxTmZASCbEQ</a>)</td>
 </tr>
-<tr class="even">
-<td align="left">2016</td>
+<tr class="odd">
+<td>2016</td>
 <td align="left">Organizing cometee of &quot;pint of science 2017&quot; in Sevilla (<a href="https://pintofscience.es/" class="uri">https://pintofscience.es/</a>)</td>
 </tr>
-<tr class="odd">
-<td align="left">2016</td>
+<tr class="even">
+<td>2016</td>
 <td align="left">Outreach talk during the Researchers night &quot;Noche investigadores 2016&quot; <a href="https://lanochedelosinvestigadores.fundaciondescubre.es/investigador/ignasi-bartomeus-roig/" class="uri">https://lanochedelosinvestigadores.fundaciondescubre.es/investigador/ignasi-bartomeus-roig/</a></td>
 </tr>
-<tr class="even">
-<td align="left">2016</td>
+<tr class="odd">
+<td>2016</td>
 <td align="left">Sevilla Science Fair (5-7 mayo 2016). Worshop about bee nests.</td>
 </tr>
+<tr class="even">
+<td>2016</td>
+<td align="left">Co-organizer of a round table on science and outreach (University of Sevilla, 6 Oct. 2016)</td>
+</tr>
 <tr class="odd">
-<td align="left">2015 &amp; 2016</td>
+<td>2015 &amp; 2016</td>
 <td align="left">Talks with high School kids at Barcelona (Colegi Sant Antoni Maria Claret) and Sevilla (IES Galileo Galilei)</td>
 </tr>
 <tr class="even">
-<td align="left">2015 - Present</td>
+<td>2015 - Present</td>
 <td align="left">Leader of a <em>teaming</em> group to create outreach material for bee entusiasts (<a href="https://www.teaming.net/cienciaparalasabejas" class="uri">https://www.teaming.net/cienciaparalasabejas</a>)</td>
 </tr>
 <tr class="odd">
-<td align="left">2015</td>
+<td>2015</td>
 <td align="left">Instalation of a bee hotel for public display at Seville Botanical Garden (El Carambolo)</td>
 </tr>
 <tr class="even">
-<td align="left">2014</td>
+<td>2014</td>
 <td align="left">Poster at the public event during Researchers night 2014. Sevilla, Spain.</td>
 </tr>
 <tr class="odd">
-<td align="left">2011 &amp; 2012</td>
+<td>2011 &amp; 2012</td>
 <td align="left">Invited talks at New York Horticultural society and Pennsylvania Native Plant Socienty.</td>
 </tr>
 <tr class="even">
-<td align="left">2011</td>
+<td>2011</td>
 <td align="left">Workshop with NJ tomato farmers (<a href="http://www.bartomeus.cat/mm/file/tomato.pdf" class="uri">http://www.bartomeus.cat/mm/file/tomato.pdf</a>)</td>
 </tr>
 <tr class="odd">
-<td align="left">2010</td>
-<td align="left">Keynote-video introducing what_s pollination continuously screened during the National Pollination Week at the Mercers County Soil Conservation District. (<a href="http://youtu.be/JBUyK3GxBtU" class="uri">http://youtu.be/JBUyK3GxBtU</a>)</td>
+<td>2010</td>
+<td align="left">Keynote-video introducing what's pollination continuously screened during the National Pollination Week at the Mercers County Soil Conservation District. (<a href="http://youtu.be/JBUyK3GxBtU" class="uri">http://youtu.be/JBUyK3GxBtU</a>)</td>
 </tr>
 <tr class="even">
-<td align="left">2008 – Present</td>
+<td>2008 – Present</td>
 <td align="left">I am regularly interviewed in local radios (7 interviews) and my articles are frequently highlihted newspapers (&gt; 50 times)</td>
 </tr>
 <tr class="odd">
-<td align="left">2008</td>
+<td>2008</td>
 <td align="left">Public talk at Barcelona Science week. Parc de la ciutadella, Spain</td>
 </tr>
 <tr class="even">
-<td align="left">2008</td>
+<td>2008</td>
 <td align="left">Aparence on local TV (TV3, show: &quot;El mediambient&quot;)</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
+<td></td>
 <td align="left">For links to radio, TV and newspaper coverage: <a href="https://github.com/ibartomeus/CV/blob/master/media.md" class="uri">https://github.com/ibartomeus/CV/blob/master/media.md</a></td>
 </tr>
 </tbody>
@@ -1129,9 +1155,9 @@ He sido invitado a 5 universidades nacionales e internacionales para impartir se
 <td align="left">Swiss Federal Institute of Aquatic Science and Technology (AEGAW). Zurich. Invited by Dr. Simone Fontana.</td>
 </tr>
 <tr class="even">
-<td align="left">2013</td>
-<td align="left">France</td>
-<td align="left">&quot;Musée national d’histoire naturelle&quot;, Paris. Invited by Dr. Emmanuelle Porcher.</td>
+<td align="left">2016</td>
+<td align="left">Spain</td>
+<td align="left">La Mayora, CSIC, Malaga. Invited by Dr. Eduardo de la Peña.</td>
 </tr>
 <tr class="odd">
 <td align="left">2014</td>
@@ -1139,9 +1165,9 @@ He sido invitado a 5 universidades nacionales e internacionales para impartir se
 <td align="left">WEB seminar series. University of Bristol. Invited by Jane Memmott.</td>
 </tr>
 <tr class="even">
-<td align="left">2016</td>
-<td align="left">Spain</td>
-<td align="left">La Mayora, CSIC, Malaga. Invited by Dr. Eduardo de la Peña.</td>
+<td align="left">2013</td>
+<td align="left">France</td>
+<td align="left">&quot;Musée national d’histoire naturelle&quot;, Paris. Invited by Dr. Emmanuelle Porcher.</td>
 </tr>
 <tr class="odd">
 <td align="left">2009</td>
@@ -1169,8 +1195,24 @@ Desde que dirijo mi propio laboratorio he recibido diversas visitas de colaborad
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">2017</td>
+<td align="left">Mary Berry, UK (Erasmus+, 3 months)</td>
+</tr>
+<tr class="even">
 <td align="left">2016</td>
 <td align="left">Stijn Van Gils. Nederlands (Super-B Short term mission)</td>
+</tr>
+<tr class="odd">
+<td align="left">2016</td>
+<td align="left">Romina Rader. Australia (1 week)</td>
+</tr>
+<tr class="even">
+<td align="left">2016</td>
+<td align="left">Ferran Sayol, Spain (1 week)</td>
+</tr>
+<tr class="odd">
+<td align="left">2016</td>
+<td align="left">Simone Fontana, Switzerland (1 week)</td>
 </tr>
 <tr class="even">
 <td align="left">2015</td>
@@ -1181,24 +1223,16 @@ Desde que dirijo mi propio laboratorio he recibido diversas visitas de colaborad
 <td align="left">Rachael Winfree. US (1 week)</td>
 </tr>
 <tr class="even">
-<td align="left">2016</td>
-<td align="left">Romina Rader. Australia (1 week)</td>
-</tr>
-<tr class="odd">
-<td align="left">2014</td>
-<td align="left">Mark Genung. US (1 week)</td>
-</tr>
-<tr class="even">
-<td align="left">2016</td>
-<td align="left">Ferran Sayol, Spain (1 week)</td>
-</tr>
-<tr class="odd">
 <td align="left">2015</td>
 <td align="left">Jamie Stavert, New Zealand (3 months)</td>
 </tr>
+<tr class="odd">
+<td align="left">2015</td>
+<td align="left">Kate Mainprice, UK (1 month)</td>
+</tr>
 <tr class="even">
-<td align="left">2016</td>
-<td align="left">Simone Fontana, Switzerland (1 week)</td>
+<td align="left">2014</td>
+<td align="left">Mark Genung. US (1 week)</td>
 </tr>
 </tbody>
 </table>
@@ -1234,6 +1268,6 @@ Otros méritos y habilidades:
 -   Padre de dos hijos
 
 > Ignasi Bartomeus
-> Sevilla, 2017-03-01
+> Sevilla, 2017-03-02
 
 Una versión actualizada automáticamente del cv se puede encontrar en <https://github.com/ibartomeus/CV/blob/master/Bartomeus_CV_esp.md>

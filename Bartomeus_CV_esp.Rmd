@@ -1,6 +1,6 @@
 ---
 output:
-  github_document
+  word_document
 ---
 
 ```{r setup, include=FALSE}
