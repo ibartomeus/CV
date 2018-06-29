@@ -1,7 +1,3 @@
-
-    ## Warning in strptime(x, fmt, tz = "GMT"): unknown timezone 'zone/tz/2018c.
-    ## 1.0/zoneinfo/Europe/Madrid'
-
 Ignasi Bartomeus Roig
 =====================
 
