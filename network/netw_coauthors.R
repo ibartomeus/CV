@@ -1,9 +1,21 @@
+# See better version in bartomeuslab webpage!
+
 library("devtools")
 install_github("pablobarbera/scholarnetwork")
 
 library(scholarnetwork)
 d <- extractNetwork(id="EXdyoWAAAAAJ", n=5000)
 str(d)
+#Fix: 
+#F Rodriguez     F Rodriguez  0.7500000     9
+#F Rodríguez     F Rodríguez  0.7500000     9
+#F Sánchez         F Sánchez  0.5000000     1
+#J Pino               J Pino  0.8000000     2
+#J Piñol             J Piñol  0.8333333     2
+#M Má Collado   M Má Collado  0.6666667     2
+#M Vila               M Vila  1.4666667     6
+#M Vilà               M Vilà  5.0666667     3
+
 setwd("~/Documents/R/CV/network") #I know, not working with file = "network/..."
 plotNetwork(d$nodes, d$edges, file="network.html", width = 1000, height = 1000)
 head(d)
@@ -104,3 +116,61 @@ pq
 df <- data.frame(Source = d$edges$node1, Target = d$edges$node2)
 write.csv(df, file="edgelist-gephi.csv", row.names=FALSE)
 
+
+#interactive plot:
+library(igraph)
+# cleaning network data
+network <- graph_from_data_frame(d, directed=FALSE)
+
+l <- layout.fruchterman.reingold(network, niter=1500) # layout
+fc <- walktrap.community(network) # community detection
+
+# node locations
+nodes <- data.frame(l); names(nodes) <- c("x", "y")
+nodes$cluster <- factor(fc$membership)
+nodes$label <- fc$names
+nodes$degree <- degree(network)
+
+library('visNetwork') 
+colnames(nodes)[4] <- "id"
+nodes$shape <- "dot"  
+nodes$shadow <- TRUE # Nodes will drop shadow
+nodes$attribute <- as.character(nodes$cluster) 
+nodes$title <- nodes$id # Text on click
+#nodes$id
+nodes$label <- nodes$type # Node label
+net <- simplify(network, remove.multiple = T, remove.loops = T) 
+deg <- degree(net, mode="all")
+nodes$size <- sqrt(deg)*10 # Node size
+nodes$size[1] <- 40
+nodes$borderWidth <- 0.2 # Node border width
+
+nodes$color.border <- "black"
+nodes$color.highlight.background <- "orange"
+nodes$color.highlight.border <- "darkred"
+links <- d$edges
+#links <- subset(links, Plant_gen_sp != "NA NA")
+links$width <- sqrt(links$weight) # line width
+links$color <- "gray"    # line color  
+#links$arrows <- "middle" # arrows: 'from', 'to', or 'middle'
+links$smooth <- TRUE    # should the edges be curved?
+links$shadow <- FALSE    # edge shadow
+colnames(links)[1:2] <- c("from", "to")
+#prune
+#(table(links$to))
+#links <- subset(links, !to %in% c("Linum bienne", "Retama sphaerocarpa"))
+#nodes <- subset(nodes, !id %in% names(which(table(links$to) == 0)))
+#nodes <- subset(nodes, !id %in% names(which(table(links$from) == 0)))
+#cols
+#dim(nodes)
+nodes$type <- nodes$cluster
+map2color<-function(x,pal,limits=NULL){
+  if(is.null(limits)) limits=range(x)
+  pal[findInterval(x,seq(limits[1],limits[2],length.out=length(pal)+1), all.inside=TRUE)]
+}
+nodes$color.background <- map2color(as.numeric(nodes$cluster), pal = rainbow(200), limits=c(1,10))
+#plot
+v <- visNetwork(nodes, links)
+vv <- visPhysics(v, timestep = 0.05, stabilization = FALSE)
+visIgraphLayout(vv)
+visSave(vv, "ntw.html", selfcontained = T)
