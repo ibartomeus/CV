@@ -9,12 +9,14 @@ library(pander)
 panderOptions('table.alignment.default',
      function(df) ifelse(sapply(df, is.numeric), 'right', 'left'))
 ```
-
+This is a non-exhuastive collection of links to video, audio and press news relating to I. Bartomeus work. 
 
 ```{r data, echo = FALSE, results = "asis"}
-media <- read.csv("data/media.csv", header = TRUE, sep = ";")
+media <- read.csv("data/media.csv", header = TRUE, sep = ",")
 #head(media)
-pander::pandoc.table(media, split.table = Inf, split.cells = 100, justify = "left")
+media <- media[order(media$year),]
+rownames(media) <- 1:nrow(media)
+pander::pandoc.table(media[,c(2,1,4,7)], split.table = Inf, split.cells = 100, justify = "left")
 ```
 
 

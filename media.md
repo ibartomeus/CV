@@ -1,427 +1,112 @@
 
-<table>
-<colgroup>
-<col width="3%" />
-<col width="2%" />
-<col width="5%" />
-<col width="14%" />
-<col width="74%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">media</th>
-<th align="left">date</th>
-<th align="left">paper</th>
-<th align="left">place</th>
-<th align="left">link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">radio</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">El radioscopio, canal sur radio.</td>
-<td align="left"><a href="http://www.canalsur.es/programa_radio.html?id=385" class="uri">http://www.canalsur.es/programa_radio.html?id=385</a></td>
-</tr>
-<tr class="even">
-<td align="left">radio</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">El Publico, canal sur radio.</td>
-<td align="left"><a href="http://www.canalsur.es/el-publico-csr/91896.html" class="uri">http://www.canalsur.es/el-publico-csr/91896.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">Entrevista ABC</td>
-<td align="left">Entrevista ABC:†<a href="http://sevilla.abc.es/sevilla/sevi-hotel-abejas-solitarias-sevilla-esta-carambolo-201605112302_noticia.html" class="uri">http://sevilla.abc.es/sevilla/sevi-hotel-abejas-solitarias-sevilla-esta-carambolo-201605112302_noticia.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">el Diario de Andalucia</td>
-<td align="left">Video abejas:†<a href="http://www.eldiario.es/andalucia/lacuadraturadelcirculo/pasa-abejas_6_502609736.html" class="uri">http://www.eldiario.es/andalucia/lacuadraturadelcirculo/pasa-abejas_6_502609736.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">internet</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">EMASESA</td>
-<td align="left">Nota prensa carambolo:†<a href="http://www.emasesa.com/construido-el-primer-hotel-de-abejas-solitarias-de-sevilla/" class="uri">http://www.emasesa.com/construido-el-primer-hotel-de-abejas-solitarias-de-sevilla/</a></td>
-</tr>
-<tr class="even">
-<td align="left">radio</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">Entrevista en Hoy por hoy, Cadena SER</td>
-<td align="left">Entrevista en la ser: Hoy por hoy; <a href="http://play.cadenaser.com/audio/1459152334_974828/" class="uri">http://play.cadenaser.com/audio/1459152334_974828/</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.tercerainformacion.es/spip.php?article99903" class="uri">http://www.tercerainformacion.es/spip.php?article99903</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left">www.lavozdegalicia.es/noticia/sociedad/2016/03/03/declive-abeja-miel-oculta-20000-especies/0003_201603G3P31993.htm</td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="https://www.meneame.net/m/cultura/cientificos-ecoflor-advierten-abejas-miel-no-son-unicas-peligro" class="uri">https://www.meneame.net/m/cultura/cientificos-ecoflor-advierten-abejas-miel-no-son-unicas-peligro</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://es.makemefeed.com/2016/03/04/cientificos-de-ecoflor-advierten-de-que-las-abejas-de-la-miel-no-son-las-unicas-en-peligro-1385300.html" class="uri">http://es.makemefeed.com/2016/03/04/cientificos-de-ecoflor-advierten-de-que-las-abejas-de-la-miel-no-son-las-unicas-en-peligro-1385300.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.revistaquercus.es/noticia/6485/opinion/el-declive-de-las-abejas:-cinco-conceptos-mal-entendidos.html" class="uri">http://www.revistaquercus.es/noticia/6485/opinion/el-declive-de-las-abejas:-cinco-conceptos-mal-entendidos.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">radio</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left">Programa: mundo ecológico.</td>
-<td align="left"><a href="http://cadenaser.com/emisora/2016/03/28/ser_madrid_norte/1459145418_420869.html" class="uri">http://cadenaser.com/emisora/2016/03/28/ser_madrid_norte/1459145418_420869.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.elmundoecologico.es/abeja-miel-ecoflor-abeja-silvestre/" class="uri">http://www.elmundoecologico.es/abeja-miel-ecoflor-abeja-silvestre/</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.20minutos.es/noticia/2704829/0/abejas-miel-peligro-polinizadores/" class="uri">http://www.20minutos.es/noticia/2704829/0/abejas-miel-peligro-polinizadores/</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.rjb.csic.es/jardinbotanico/jardin/contenido.php?Pag=106&amp;tipo=noticia&amp;cod=5035" class="uri">http://www.rjb.csic.es/jardinbotanico/jardin/contenido.php?Pag=106&amp;tipo=noticia&amp;cod=5035</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">Quercus</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.ecoticias.com/naturaleza/113361/Abejas-peligro-solo-miel" class="uri">http://www.ecoticias.com/naturaleza/113361/Abejas-peligro-solo-miel</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">Entrevista en el Correo del Sol, Colombia.</td>
-<td align="left">Entrevista el correo del sol:†<a href="http://www.elcorreodelsol.com/articulo/puedes-ayudar-las-abejas-con-flores-autoctonas-en-ventanas-y-jardines" class="uri">http://www.elcorreodelsol.com/articulo/puedes-ayudar-las-abejas-con-flores-autoctonas-en-ventanas-y-jardines</a></td>
-</tr>
-<tr class="even">
-<td align="left">radio</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left"></td>
-<td align="left">Cadena SER entrevista:†<a href="http://cadenaser.com/emisora/2016/02/18/radio_huelva/1455783125_020311.html" class="uri">http://cadenaser.com/emisora/2016/02/18/radio_huelva/1455783125_020311.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">journal</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left">Nature editorial</td>
-<td align="left"><a href="http://www.nature.com/nature/journal/v528/n7580/full/528011d.html" class="uri">http://www.nature.com/nature/journal/v528/n7580/full/528011d.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.sci-news.com/biology/non-bee-insects-important-crop-pollinators-03477.html" class="uri">http://www.sci-news.com/biology/non-bee-insects-important-crop-pollinators-03477.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.bangkokpost.com/lite/news/781457/flies-wasps-beetles-are-important-pollinators-too" class="uri">http://www.bangkokpost.com/lite/news/781457/flies-wasps-beetles-are-important-pollinators-too</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://mobile.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344" class="uri">http://mobile.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.eluniversal.com.mx/articulo/ciencia-y-salud/ciencia/2015/11/30/abejas-no-son-la-unica-clave-en-la-polinizacion-de" class="uri">http://www.eluniversal.com.mx/articulo/ciencia-y-salud/ciencia/2015/11/30/abejas-no-son-la-unica-clave-en-la-polinizacion-de</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.eldiario.es/cultura/tecnologia/insectos-ademas-abejas-polinizacion-cultivos_0_457755165.html" class="uri">http://www.eldiario.es/cultura/tecnologia/insectos-ademas-abejas-polinizacion-cultivos_0_457755165.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.lavanguardia.com/vida/20151130/30501255854/otros-insectos-ademas-de-las-abejas-claves-en-la-polinizacion-de-cultivos.html" class="uri">http://www.lavanguardia.com/vida/20151130/30501255854/otros-insectos-ademas-de-las-abejas-claves-en-la-polinizacion-de-cultivos.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://news.yahoo.com/flies-wasps-beetles-important-pollinators-too-001606416.html" class="uri">http://news.yahoo.com/flies-wasps-beetles-important-pollinators-too-001606416.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">PNAS 2016</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344" class="uri">http://www.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left"></td>
-<td align="left">Kerr <a href="pres:†http://www.usatoday.com/story/news/2015/07/09/bumblebees-climate-change-study/29891617/" class="uri">pres:†http://www.usatoday.com/story/news/2015/07/09/bumblebees-climate-change-study/29891617/</a></td>
-</tr>
-<tr class="odd">
-<td align="left">journal</td>
-<td align="left">2016</td>
-<td align="left">general</td>
-<td align="left">Science magazine editorial.</td>
-<td align="left"><a href="http://news.sciencemag.org/biology/2015/07/bumblebees-being-crushed-climate-change" class="uri">http://news.sciencemag.org/biology/2015/07/bumblebees-being-crushed-climate-change</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2015</td>
-<td align="left">Nat Com 2015</td>
-<td align="left"></td>
-<td align="left">ABC:†<a href="http://www.abc.es/natural-biodiversidad/20150618/abci-polinizacion-abejas-amenazadas-201506181304.html" class="uri">http://www.abc.es/natural-biodiversidad/20150618/abci-polinizacion-abejas-amenazadas-201506181304.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2015</td>
-<td align="left">Nat Com 2015</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.efeagro.com/noticia/abejas-comunes-protagonistas-polinizacion-cultivos/" class="uri">http://www.efeagro.com/noticia/abejas-comunes-protagonistas-polinizacion-cultivos/</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2015</td>
-<td align="left">Nat Com 2015</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.agrodigital.com/PlArtStd.asp?CodArt=102848" class="uri">http://www.agrodigital.com/PlArtStd.asp?CodArt=102848</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">PNAS 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.washingtonpost.com/news/energy-environment/wp/2015/06/22/wild-bees-are-dying-off-and-need-to-be-protected-but-not-for-the-reasons-you-think/?postshare=7171434987513417" class="uri">http://www.washingtonpost.com/news/energy-environment/wp/2015/06/22/wild-bees-are-dying-off-and-need-to-be-protected-but-not-for-the-reasons-you-think/?postshare=7171434987513417</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">PNAS 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.nytimes.com/2014/11/25/science/clues-to-bees-history-tucked-away-in-drawers.html?_r=1" class="uri">http://www.nytimes.com/2014/11/25/science/clues-to-bees-history-tucked-away-in-drawers.html?_r=1</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">PNAS 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.sciencefriday.com/topics/nature/segment/03/08/2013/getting-the-springtime-buzz-on-bees.html" class="uri">http://www.sciencefriday.com/topics/nature/segment/03/08/2013/getting-the-springtime-buzz-on-bees.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">PNAS 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.sciencedaily.com/releases/2013/03/130304161621.htm" class="uri">http://www.sciencedaily.com/releases/2013/03/130304161621.htm</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">PNAS 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://news.rutgers.edu/medrel/research/rh-2013-1/when-it-comes-to-pol-20130312/medrel_research_highlight_view" class="uri">http://news.rutgers.edu/medrel/research/rh-2013-1/when-it-comes-to-pol-20130312/medrel_research_highlight_view</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">Science 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.guardian.co.uk/environment/2013/feb/28/wild-bees-pollinators-crop-yields" class="uri">http://www.guardian.co.uk/environment/2013/feb/28/wild-bees-pollinators-crop-yields</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">Science 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.npr.org/blogs/thesalt/2013/03/01/173167125/wild-bees-are-good-for-crops-but-crops-are-bad-for-bees?sc=17&amp;f=1001" class="uri">http://www.npr.org/blogs/thesalt/2013/03/01/173167125/wild-bees-are-good-for-crops-but-crops-are-bad-for-bees?sc=17&amp;f=1001</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2013</td>
-<td align="left">Science 2013</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.sciencedaily.com/releases/2013/02/130228155622.htm?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+sciencedaily%2Fplants_animals+%28ScienceDaily%3A+Plants+%26+Animals+News%29&amp;utm_content=Google+Reader">http://www.sciencedaily.com/releases/2013/02/130228155622.htm?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+sciencedaily%2Fplants_animals+%28ScienceDaily%3A+Plants+%26+Animals+News%29&amp;utm_content=Google+Reader</a></td>
-</tr>
-<tr class="odd">
-<td align="left">radio</td>
-<td align="left">2013</td>
-<td align="left">Science 2013</td>
-<td align="left"></td>
-<td align="left">Swedish National radio</td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2012</td>
-<td align="left">Science 2012</td>
-<td align="left"></td>
-<td align="left">OK Science The guardian:†<a href="http://t.co/QIBBF74u" class="uri">http://t.co/QIBBF74u</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2012</td>
-<td align="left">GEB 2012</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.uab.cat/servlet/Satellite?cid=1096481466574&amp;pagename=UABDivulga%2FPage%2FTemplatePageDetallArticleInvestigar&amp;param1=1339396418859">http://www.uab.cat/servlet/Satellite?cid=1096481466574&amp;pagename=UABDivulga%2FPage%2FTemplatePageDetallArticleInvestigar&amp;param1=1339396418859</a></td>
-</tr>
-<tr class="even">
-<td align="left">radio</td>
-<td align="left">2012</td>
-<td align="left">general</td>
-<td align="left">Interview rtve, show: via verde.</td>
-<td align="left"><a href="http://www.rtve.es/alacarta/audios/vida-verde/vida-verde-huertos-comunitarios-abejas-ciudad-12-05-12/1402151/" class="uri">http://www.rtve.es/alacarta/audios/vida-verde/vida-verde-huertos-comunitarios-abejas-ciudad-12-05-12/1402151/</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://content.usatoday.com/communities/sciencefair/post/2011/12/bees-plants-pollination-climate-change-global-warming/1" class="uri">http://content.usatoday.com/communities/sciencefair/post/2011/12/bees-plants-pollination-climate-change-global-warming/1</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left">Science dayly:†<a href="http://www.sciencedaily.com/releases/2011/12/111212124601.htm" class="uri">http://www.sciencedaily.com/releases/2011/12/111212124601.htm</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left">idem Cornell:†<a href="http://www.news.cornell.edu/stories/Dec11/BeesClimate.html" class="uri">http://www.news.cornell.edu/stories/Dec11/BeesClimate.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left">Hunterdon County Democrat:†<a href="http://www.nj.com/hunterdon-county-democrat/index.ssf/2012/02/editorial_column_plants_and_an.html" class="uri">http://www.nj.com/hunterdon-county-democrat/index.ssf/2012/02/editorial_column_plants_and_an.html</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left">Entomoblog:†<a href="http://entomoblog.net/Las-abejas-y-el-cambio-climatico.html#forum2713" class="uri">http://entomoblog.net/Las-abejas-y-el-cambio-climatico.html#forum2713</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://t.co/xJswEMxD" class="uri">http://t.co/xJswEMxD</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://today.uconn.edu/blog/2011/12/biological-collections-help-scientists-document-environmental-change/" class="uri">http://today.uconn.edu/blog/2011/12/biological-collections-help-scientists-document-environmental-change/</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.bioon.com/biology/Ecology/513005.shtml" class="uri">http://www.bioon.com/biology/Ecology/513005.shtml</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://noticias.ambientebrasil.com.br/clipping/2011/12/07/77575-mudancas-climaticas-alteram-ciclo-reprodutivo-de-abelhas-diz-cientista.html" class="uri">http://noticias.ambientebrasil.com.br/clipping/2011/12/07/77575-mudancas-climaticas-alteram-ciclo-reprodutivo-de-abelhas-diz-cientista.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://eptv.globo.com/terradagente/NOT,0,0,382583,Clima+altera+reproducao+.aspx" class="uri">http://eptv.globo.com/terradagente/NOT,0,0,382583,Clima+altera+reproducao+.aspx</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left"></td>
-<td align="left"><a href="http://carnicagruppen.blogspot.com/2011/12/blommor-och-bin.html" class="uri">http://carnicagruppen.blogspot.com/2011/12/blommor-och-bin.html</a></td>
-</tr>
-<tr class="even">
-<td align="left">journal</td>
-<td align="left">2011</td>
-<td align="left">PNAS 2011</td>
-<td align="left">Current biology dispatch</td>
-<td align="left"><a href="http://www.cell.com/current-biology/abstract/S0960-9822(12)00010-3?_returnURL=http%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982212000103%3Fshowall%3Dtrue">http://www.cell.com/current-biology/abstract/S0960-9822(12)00010-3?_returnURL=http%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982212000103%3Fshowall%3Dtrue</a></td>
-</tr>
-<tr class="odd">
-<td align="left">newspaper</td>
-<td align="left">2008</td>
-<td align="left">Oecologia 2008</td>
-<td align="left"></td>
-<td align="left"><a href="http://www.sciencedaily.com/releases/2008/05/080516125934.htm" class="uri">http://www.sciencedaily.com/releases/2008/05/080516125934.htm</a></td>
-</tr>
-<tr class="even">
-<td align="left">TV</td>
-<td align="left">2008</td>
-<td align="left">general</td>
-<td align="left">TV3, el mediambient</td>
-<td align="left">Video about Invasive plants TV3 (spanish)</td>
-</tr>
-</tbody>
-</table>
+This is a non-exhuastive collection of links to video, audio and press
+news relating to I. Bartomeus
+work.
+
+| year | media     | place                                      | link                                                                                                                                                                                                                             |
+| :--- | :-------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2008 | news      | Science daily                              | <http://www.sciencedaily.com/releases/2008/05/080516125934.htm>                                                                                                                                                                  |
+| 2008 | TV        | El mediambient, TV3                        | NA                                                                                                                                                                                                                               |
+| 2011 | newspaper | USA Today                                  | <http://content.usatoday.com/communities/sciencefair/post/2011/12/bees-plants-pollination-climate-change-global-warming/1>                                                                                                       |
+| 2011 | newspaper | Science daily                              | <http://www.sciencedaily.com/releases/2011/12/111212124601.htm>                                                                                                                                                                  |
+| 2011 | newspaper | Cornell webpage.                           | <http://www.news.cornell.edu/stories/Dec11/BeesClimate.html>                                                                                                                                                                     |
+| 2011 | newspaper | Hunterdon County Democrat                  | <http://www.nj.com/hunterdon-county-democrat/index.ssf/2012/02/editorial_column_plants_and_an.html>                                                                                                                              |
+| 2011 | internet  | Entomoblog                                 | <http://entomoblog.net/Las-abejas-y-el-cambio-climatico.html#forum2713>                                                                                                                                                          |
+| 2011 | newspaper | York News                                  | <http://t.co/xJswEMxD>                                                                                                                                                                                                           |
+| 2011 | newspaper | Uconn news                                 | <http://today.uconn.edu/blog/2011/12/biological-collections-help-scientists-document-environmental-change/>                                                                                                                      |
+| 2011 | newspaper | Bioon                                      | <http://www.bioon.com/biology/Ecology/513005.shtml>                                                                                                                                                                              |
+| 2011 | newspaper | Ambiente Brasil                            | <http://noticias.ambientebrasil.com.br/clipping/2011/12/07/77575-mudancas-climaticas-alteram-ciclo-reprodutivo-de-abelhas-diz-cientista.html>                                                                                    |
+| 2011 | newspaper | EP-TV                                      | <http://eptv.globo.com/terradagente/NOT00382583Clima+altera+reproducao+.aspx>                                                                                                                                                    |
+| 2011 | newspaper | Camicagrupen                               | <http://carnicagruppen.blogspot.com/2011/12/blommor-och-bin.html>                                                                                                                                                                |
+| 2011 | journal   | Current biology dispatch                   | <http://www.cell.com/current-biology/abstract/S0960-9822(12)00010-3?_returnURL=http%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982212000103%3Fshowall%3Dtrue>                                                       |
+| 2012 | newspaper | The guardian                               | <http://t.co/QIBBF74u>                                                                                                                                                                                                           |
+| 2012 | newspaper | UAB divulga                                | <http://www.uab.cat/servlet/Satellite?cid=1096481466574&pagename=UABDivulga%2FPage%2FTemplatePageDetallArticleInvestigar&param1=1339396418859>                                                                                   |
+| 2012 | radio     | Via verde, RTVE                            | <http://www.rtve.es/alacarta/audios/vida-verde/vida-verde-huertos-comunitarios-abejas-ciudad-12-05-12/1402151/>                                                                                                                  |
+| 2013 | newspaper | Washington Post                            | <http://www.washingtonpost.com/news/energy-environment/wp/2015/06/22/wild-bees-are-dying-off-and-need-to-be-protected-but-not-for-the-reasons-you-think/?postshare=7171434987513417>                                             |
+| 2013 | newspaper | NY Times                                   | <http://www.nytimes.com/2014/11/25/science/clues-to-bees-history-tucked-away-in-drawers.html?_r=1>                                                                                                                               |
+| 2013 | newspaper | Science Friday                             | <http://www.sciencefriday.com/topics/nature/segment/03/08/2013/getting-the-springtime-buzz-on-bees.html>                                                                                                                         |
+| 2013 | newspaper | Science daily                              | <http://www.sciencedaily.com/releases/2013/03/130304161621.htm>                                                                                                                                                                  |
+| 2013 | newspaper | Rutgers News                               | <http://news.rutgers.edu/medrel/research/rh-2013-1/when-it-comes-to-pol-20130312/medrel_research_highlight_view>                                                                                                                 |
+| 2013 | newspaper | The Guardian                               | <http://www.guardian.co.uk/environment/2013/feb/28/wild-bees-pollinators-crop-yields>                                                                                                                                            |
+| 2013 | newspaper | NPR                                        | <http://www.npr.org/blogs/thesalt/2013/03/01/173167125/wild-bees-are-good-for-crops-but-crops-are-bad-for-bees?sc=17&f=1001>                                                                                                     |
+| 2013 | newspaper | Science daily                              | <http://www.sciencedaily.com/releases/2013/02/130228155622.htm?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+sciencedaily%2Fplants_animals+%28ScienceDaily%3A+Plants+%26+Animals+News%29&utm_content=Google+Reader> |
+| 2013 | radio     | Swedish National radio                     | NA                                                                                                                                                                                                                               |
+| 2015 | newspaper | ABC                                        | <http://www.abc.es/natural-biodiversidad/20150618/abci-polinizacion-abejas-amenazadas-201506181304.html>                                                                                                                         |
+| 2015 | newspaper | Efe                                        | <http://www.efeagro.com/noticia/abejas-comunes-protagonistas-polinizacion-cultivos/>                                                                                                                                             |
+| 2015 | newspaper | AgroDigital                                | <http://www.agrodigital.com/PlArtStd.asp?CodArt=102848>                                                                                                                                                                          |
+| 2015 | newspaper | El Correo de Sevilla                       | <https://www.eldiario.es/andalucia/lacuadraturadelcirculo/declive-abejas_6_428417163.html>                                                                                                                                       |
+| 2016 | radio     | El Radioscopio. Canal Sur Radio            | <http://www.canalsur.es/programa_radio.html?id=385>                                                                                                                                                                              |
+| 2016 | radio     | El Publico. Canal Sur Radio.               | <http://www.canalsur.es/el-publico-csr/91896.html>                                                                                                                                                                               |
+| 2016 | newspaper | ABC                                        | <http://sevilla.abc.es/sevilla/sevi-hotel-abejas-solitarias-sevilla-esta-carambolo-201605112302_noticia.html>                                                                                                                    |
+| 2016 | newspaper | El Diario de Andalucia                     | <http://www.eldiario.es/andalucia/lacuadraturadelcirculo/pasa-abejas_6_502609736.html>                                                                                                                                           |
+| 2016 | internet  | EMASESA webpage                            | <http://www.emasesa.com/construido-el-primer-hotel-de-abejas-solitarias-de-sevilla/>                                                                                                                                             |
+| 2016 | radio     | Hoy por Hoy, Cadena SER.                   | <http://play.cadenaser.com/audio/1459152334_974828/>                                                                                                                                                                             |
+| 2016 | newspaper | Tercera Información                        | <http://www.tercerainformacion.es/spip.php?article99903>                                                                                                                                                                         |
+| 2016 | newspaper | La voz de Galicia                          | <http://www.lavozdegalicia.es/noticia/sociedad/2016/03/03/declive-abeja-miel-oculta-20000-especies/0003_201603G3P31993.htm>                                                                                                      |
+| 2016 | newspaper | Meneame                                    | <https://www.meneame.net/m/cultura/cientificos-ecoflor-advierten-abejas-miel-no-son-unicas-peligro>                                                                                                                              |
+| 2016 | newspaper | Make Me Feed                               | <http://es.makemefeed.com/2016/03/04/cientificos-de-ecoflor-advierten-de-que-las-abejas-de-la-miel-no-son-las-unicas-en-peligro-1385300.html>                                                                                    |
+| 2016 | newspaper | Quercus                                    | <http://www.revistaquercus.es/noticia/6485/opinion/el-declive-de-las-abejas:-cinco-conceptos-mal-entendidos.html>                                                                                                                |
+| 2016 | radio     | Programa: mundo ecológico.                 | <http://cadenaser.com/emisora/2016/03/28/ser_madrid_norte/1459145418_420869.html>                                                                                                                                                |
+| 2016 | newspaper | El Mundo Ecológico                         | <http://www.elmundoecologico.es/abeja-miel-ecoflor-abeja-silvestre/>                                                                                                                                                             |
+| 2016 | newspaper | 20 Minutos                                 | <http://www.20minutos.es/noticia/2704829/0/abejas-miel-peligro-polinizadores/>                                                                                                                                                   |
+| 2016 | newspaper | RJB                                        | <http://www.rjb.csic.es/jardinbotanico/jardin/contenido.php?Pag=106&tipo=noticia&cod=5035>                                                                                                                                       |
+| 2016 | newspaper | ECOticias                                  | <http://www.ecoticias.com/naturaleza/113361/Abejas-peligro-solo-miel>                                                                                                                                                            |
+| 2016 | newspaper | Entrevista en el Correo del Sol. Colombia. | <http://www.elcorreodelsol.com/articulo/puedes-ayudar-las-abejas-con-flores-autoctonas-en-ventanas-y-jardines>                                                                                                                   |
+| 2016 | radio     | Cadena SER entrevista                      | <http://cadenaser.com/emisora/2016/02/18/radio_huelva/1455783125_020311.html>                                                                                                                                                    |
+| 2016 | journal   | Nature editorial                           | <http://www.nature.com/nature/journal/v528/n7580/full/528011d.html>                                                                                                                                                              |
+| 2016 | newspaper | SciNews                                    | <http://www.sci-news.com/biology/non-bee-insects-important-crop-pollinators-03477.html>                                                                                                                                          |
+| 2016 | newspaper | Bangkokpost                                | <http://www.bangkokpost.com/lite/news/781457/flies-wasps-beetles-are-important-pollinators-too>                                                                                                                                  |
+| 2016 | newspaper | ABC                                        | <http://mobile.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344>                                                                                                                    |
+| 2016 | newspaper | El Universal                               | <http://www.eluniversal.com.mx/articulo/ciencia-y-salud/ciencia/2015/11/30/abejas-no-son-la-unica-clave-en-la-polinizacion-de>                                                                                                   |
+| 2016 | newspaper | El Diario                                  | <http://www.eldiario.es/cultura/tecnologia/insectos-ademas-abejas-polinizacion-cultivos_0_457755165.html>                                                                                                                        |
+| 2016 | newspaper | La Vanguardia                              | <http://www.lavanguardia.com/vida/20151130/30501255854/otros-insectos-ademas-de-las-abejas-claves-en-la-polinizacion-de-cultivos.html>                                                                                           |
+| 2016 | newspaper | Yahoo News                                 | <http://news.yahoo.com/flies-wasps-beetles-important-pollinators-too-001606416.html>                                                                                                                                             |
+| 2016 | newspaper | ABC                                        | <http://www.abc.net.au/news/2015-12-01/non-bee-insects-just-as-important-as-bees-for-worlds-crops/6988344>                                                                                                                       |
+| 2016 | newspaper | USA today                                  | <http://www.usatoday.com/story/news/2015/07/09/bumblebees-climate-change-study/29891617/>                                                                                                                                        |
+| 2016 | journal   | Science magazine editorial.                | <http://news.sciencemag.org/biology/2015/07/bumblebees-being-crushed-climate-change>                                                                                                                                             |
+| 2016 | newspaper | El Correo de Sevilla                       | NA                                                                                                                                                                                                                               |
+| 2016 | TV        | Portuguese documentary on Climate change   | <https://vimeo.com/198318586>                                                                                                                                                                                                    |
+| 2016 | newspaper | El Diario                                  | <https://www.eldiario.es/andalucia/lacuadraturadelcirculo/pasa-abejas_6_502609736.html>                                                                                                                                          |
+| 2017 | newspaper | El Correo de Sevilla                       | <https://elcorreoweb.es/andalucia/europa-se-queda-sin-insectos-EH3485446>                                                                                                                                                        |
+| 2017 | newspaper | El Diario de Andalucia                     | <https://www.diariodesevilla.es/vivirensevilla/BatomosB-cervezas_0_1135687078.html>                                                                                                                                              |
+| 2017 | news      | Manitoba Cooperator                        | <https://www.manitobacooperator.ca/crops/pollinator-seed-mixes-tailor-made/>                                                                                                                                                     |
+| 2017 | newspaper | La Opinión de Malaga                       | <https://www.laopiniondemalaga.es/malaga/2017/10/16/silenciosa-desaparicion-insectos/961715.html>                                                                                                                                |
+| 2017 | newspaper | La Vanguardia Magazine                     | <http://www.magazinedigital.com/historias/reportajes/en-un-mundo-sin-insectos>                                                                                                                                                   |
+| 2017 | newspaper | El Correo                                  | <https://elcorreoweb.es/sevilla/el-impacto-obligara-al-reseteo-de-especies-AD2599002>                                                                                                                                            |
+| 2017 | newspaper | La Opinion A Coruña                        | <https://www.laopinioncoruna.es/sociedad/2017/09/15/insectos-peligro-grave-extincion-masiva/1217463.html>                                                                                                                        |
+| 2018 | news      | Noticias de la ciencia                     | <https://noticiasdelaciencia.com/art/30889/declive-del-30-por-ciento-en-las-abejas-de-espana>                                                                                                                                    |
+| 2018 | newspaper | El Diario                                  | <https://www.eldiario.es/autores/ignasi_bartomeus/>                                                                                                                                                                              |
+| 2018 | newspaper | La Vanguardia                              | <https://www.lavanguardia.com/natural/20190819/464143675799/corredor-verde-londres-abejas-insectos-biodiversidad.html>                                                                                                           |
+| 2018 | newspaper | ABC                                        | <https://www.abc.es/ciencia/abci-nuestra-supervivencia-no-solo-depende-abejas-miel-201802152013_noticia.html>                                                                                                                    |
+| 2018 | news      | Noticias de Ciencia                        | <https://noticiasdelaciencia.com/art/30889/declive-del-30-por-ciento-en-las-abejas-de-espana>                                                                                                                                    |
+| 2018 | newspaper | ABC Sevilla                                | <https://sevilla.abc.es/economia/sevi-diversidad-abejas-para-polinizar-cultivos-201803120743_noticia.html>                                                                                                                       |
+| 2018 | newspaper | El Periódico de Catalunya                  | <https://www.elperiodico.cat/ca/medi-ambient/20180427/el-malestar-de-les-abelles-6789623>                                                                                                                                        |
+| 2018 | newspaper | El Periódico                               | <https://www.elperiodico.com/es/medio-ambiente/20180427/los-achaques-de-las-abejas-6789623>                                                                                                                                      |
+| 2018 | news      | Innova Spain                               | <https://www.innovaspain.com/detectar-ecosistemas-riesgo-extincion-upm/>                                                                                                                                                         |
+| 2018 | news      | SINC                                       | <https://www.agenciasinc.es/Noticias/Una-herramienta-para-descubrir-ecosistemas-en-riesgo-de-extincion>                                                                                                                          |
+| 2018 | news      | Voz Populi                                 | <https://www.vozpopuli.com/altavoz/next/abejas-miel-buenas-apicultores-medioambiente_0_1106890070.html>                                                                                                                          |
+| 2018 | news      | SINC                                       | <https://www.agenciasinc.es/Noticias/Las-abejas-de-la-miel-compiten-con-las-salvajes-por-el-mismo-habitat>                                                                                                                       |
+| 2018 | news      | ECOticias                                  | <https://www.ecoticias.com/naturaleza/183769/Innovadora-herramienta-para-descubrir-ecosistemas-riesgo-extincion>                                                                                                                 |
+| 2018 | newspaper | National Geographic                        | In press only.                                                                                                                                                                                                                   |
+| 2018 | news      | Noticias Canal Sur                         | <https://www.youtube.com/watch?v=VYsLtF10-nY&feature=youtu.be>                                                                                                                                                                   |
+| 2018 | Radio     | La cafereta de Radiocable                  | <https://www.spreaker.com/user/radiocable/lacafetera15sincouso-hablamos-con-david->                                                                                                                                              |
+| 2018 | Radio     | Verde Verde, Canal Sur                     | <http://www.canalsur.es/radio/programas/verde-verde/detalle/155.html?video=1257638&fecha=&ano=>                                                                                                                                  |
+| 2018 | internet  | Ecomandanga                                | <https://ecomandanga.org/2018/03/01/la-polinizacion-no-es-solo-cuestion-de-abejas-necesitamos-mas-especies/>                                                                                                                     |
+| 2018 | Radio     | Einstein en Malasaña                       | <https://www.m21radio.es/podcast/einstein-en-malasana/einstein-en-malasana-14022018>                                                                                                                                             |
+| 2018 | newspaper | La vanguardia                              | <http://www.lavanguardia.com/local/sevilla/20180207/44607268732/un-estudio-de-la-ebd-demuestra-que-las-abejas-de-la-miel-compiten-con-las-salvajes-por-el-mismo-habitat.html>                                                    |
+| 2019 | newspaper | El Pais                                    | <https://elpais.com/elpais/2019/12/24/ciencia/1577173702_312985.html>                                                                                                                                                            |
+| 2019 | video     | Atlas for Future                           | <https://www.youtube.com/watch?v=CiZNbQkozpo>                                                                                                                                                                                    |
+| 2019 | news      | New Scientist                              | <https://www.newscientist.com/article/2220430-farmed-bees-are-mating-with-native-bees-and-that-could-endanger-them/>                                                                                                             |
+| 2019 | newspaper | National Geographic                        | <https://www.nationalgeographic.com.es/naturaleza/actualidad/una-gran-diversidad-abejas-crucial-para-asegurar-polinizacion-los-cultivos_12383/2>                                                                                 |
+| 2019 | news      | Phys                                       | <https://phys.org/news/2019-03-bee-diversity-critical-world-food.html>                                                                                                                                                           |
+| 2019 | news      | Physworld                                  | <https://physicsworld.com/a/how-can-science-best-help-bees/>                                                                                                                                                                     |
+| 2019 | news      | Ambientum                                  | <https://www.ambientum.com/ambientum/biodiversidad/espana-centenar-especies-abejas.asp>                                                                                                                                          |
+| 2019 | newspaper | El Diario                                  | <https://www.eldiario.es/cienciacritica/Replanteando-modelo-publicacion-informacion-cientifica_6_862023805.html>                                                                                                                 |
+| 2019 | newspaper | El Pais                                    | <https://elpais.com/elpais/2019/10/16/ciencia/1571215886_049526.html>                                                                                                                                                            |
+| 2019 | newspaper | Ara                                        | <https://www.ara.cat/dossier/papallones-regressio-Catalunya_0_2206579391.html>                                                                                                                                                   |
+| 2019 | news      | Focus (IT)                                 | <https://www.focus.it/ambiente/animali/api-un-altro-problema>                                                                                                                                                                    |
+| 2019 | newspaper | El Pais                                    | <https://elpais.com/sociedad/2019/03/22/actualidad/1553259263_166792.html>                                                                                                                                                       |
+| 2019 | news      | Ouest France (FR)                          | <https://www.ouest-france.fr/sciences/abeilles-il-n-y-pas-que-le-miel-dans-la-vie-6341691>                                                                                                                                       |
+| 2019 | internet  | Nature                                     | <https://blog.nature.org/science/science-brief/nature-improves-crop-production/>                                                                                                                                                 |
+| 2019 | news      | Xarxanet                                   | <http://xarxanet.org/internacional/noticies/ignasi-bartomeus-l-ecologia-no-enten-de-fronteres-ni-fa-separacions-entre>                                                                                                           |
+| 2019 | news      | Efe                                        | <https://www.efeverde.com/noticias/guia-campo-abejas/>                                                                                                                                                                           |
